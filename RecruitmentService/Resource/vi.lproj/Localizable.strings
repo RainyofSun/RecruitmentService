@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  RecruitmentService
+
+  Created by Yu Chen  on 2025/1/16.
+  
+*/
+
+// MARK: Tabbar
+"tabbar_home" = "Trang chủ";
+"tabbar_publish" = "Công bố";
+"tabbar_notification" = "Thông báo";
+"tabbar_mine" = "Của tôi";
+
+// MARK: ALert
+"alert_btn_ok" = "OK";
+"alert_btn_cancel" = "Từ chối";
+"alert_title" = "Lời khuyên";
+"alert_left_title" = "Hủy bỏ";
+
+// MARK: Notification
+"notification_empty_title" = "Chưa phát hành yêu cầu";
+"notification_empty_try_title" = "Để phát hành";

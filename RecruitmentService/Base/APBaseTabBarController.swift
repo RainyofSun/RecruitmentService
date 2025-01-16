@@ -10,11 +10,10 @@ import UIKit
 class APBaseTabBarController: UITabBarController {
 
     private var customBar: APCustomTabbar?
-    private var vc_array: [UIViewController.Type] = [UIViewController.self, UIViewController.self, UIViewController.self, UIViewController.self, UIViewController.self]
+    private var vc_array: [UIViewController.Type] = [RSAPPHomeViewController.self, RSAPPPublishViewController.self, RSAPPNotificationViewController.self, RSAPPMineViewController.self]
     private var title_array: [String] = []
-    private var image_array: [String] = ["tab_home_n", "tab_moment_n", "tab_creat", "tab_msg_n", "tab_me_n"]
-    private var select_image_array: [String] = ["tab_home_h", "tab_moment_h", "tab_creat", "tab_msg_h_livo", "tab_me_h"]
-    private let CENTER_INDEX: Int = 2
+    private var image_array: [String] = ["tabbar_home_normal", "tabbar_publish_normal", "tabbar_notification_normal", "tabbar_mine_normal"]
+    private var select_image_array: [String] = ["tabbar_home_sel", "tabbar_publish_sel", "tabbar_notification_sel", "tabbar_mine_sel"]
     
     override var selectedIndex: Int {
         didSet {
@@ -38,8 +37,7 @@ private extension APBaseTabBarController {
         let tabbar: APCustomTabbar = APCustomTabbar(frame: CGRect(origin: CGPointZero, size: CGSize(width: ScreenWidth, height: UIDevice.xp_tabBarFullHeight())))
         self.setValue(tabbar, forKey: "tabBar")
         tabbar.tabbarItemImageInset = self.view.safeAreaInsets.bottom == .zero ? UIEdgeInsets(top: 5, left: .zero, bottom: .zero, right: .zero) : .zero
-        tabbar.setCenterBarItem(CGSize(width: 58, height: 58), index: CENTER_INDEX)
-        tabbar.setTabbarTitles(barItemImages: image_array, barItemSelectedImages: select_image_array)
+        tabbar.setTabbarTitles([RSAPPLanguage.localValue("tabbar_home"), RSAPPLanguage.localValue("tabbar_publish"), RSAPPLanguage.localValue("tabbar_notification"), RSAPPLanguage.localValue("tabbar_mine")], barItemImages: image_array, barItemSelectedImages: select_image_array)
         tabbar.setBadgeView(3)
         tabbar.barDelegate = self
         self.addMyVC()
@@ -63,12 +61,6 @@ extension APBaseTabBarController: APCustomTabbarProtocol {
     }
     
     func ap_didSelctedItem(_ tabbar: APCustomTabbar, item: UIButton, index: Int) {
-        if index == CENTER_INDEX {
-            let vc = APBaseNavigationController(rootViewController: UIViewController())
-            vc.modalPresentationStyle = .overFullScreen
-            self.present(vc, animated: true)
-        } else {
-            self.selectedIndex = index
-        }
+        self.selectedIndex = index
     }
 }

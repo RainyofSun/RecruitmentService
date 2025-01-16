@@ -14,6 +14,26 @@ protocol APCustomTabbarProtocol: UITabBarController {
     func ap_didSelctedItem(_ tabbar: APCustomTabbar, item: UIButton, index: Int)
 }
 
+class APCustomTabbarItem: UIButton {
+
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        self.titleLabel?.textAlignment = .center
+        self.titleLabel?.font = UIFont.systemFont(ofSize: 11)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        self.imageView?.frame = CGRect(x: (self.width - 25) * 0.5, y: 5, width: 25, height: 25)
+        self.titleLabel?.frame = CGRect(x: 2, y: 31, width: self.width - 4, height: 17)
+    }
+}
+
 class APCustomTabbar: UITabBar {
 
     weak open var barDelegate: APCustomTabbarProtocol?
@@ -59,7 +79,7 @@ class APCustomTabbar: UITabBar {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = .clear
+        self.backgroundColor = .white
         self.original_size = frame.size
     }
     
@@ -80,6 +100,9 @@ class APCustomTabbar: UITabBar {
     }
     
     override func draw(_ rect: CGRect) {
+        if self.center_size == .zero {
+            return
+        }
         let radius: CGFloat = 30
         self.alienLayer.frame = CGRect(x: .zero, y: -_top_y, width: rect.width, height: rect.height + _top_y)
         path.move(to: CGPoint(x: .zero, y: _top_y))
@@ -96,7 +119,11 @@ class APCustomTabbar: UITabBar {
     }
     
     override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
-        return self.alienLayer.frame.contains(point)
+        if self.center_size != .zero {
+            return self.alienLayer.frame.contains(point)
+        }
+        
+        return super.point(inside: point, with: event)
     }
 }
 
@@ -140,14 +167,13 @@ extension APCustomTabbar {
         let item_width: CGFloat = (UIScreen.main.bounds.width - self.center_size.width)/CGFloat(_count)
         let item_height: CGFloat = 49
         images.enumerated().forEach { (index: Int, image: String) in
-            let button = UIButton(type: UIButton.ButtonType.custom)
+            let button = APCustomTabbarItem.init(frame: CGRectZero)
             button.setTitle(titles?[index], for: UIControl.State.normal)
             button.setTitle(titles?[index], for: UIControl.State.highlighted)
-            button.setTitleColor(UIColor.init(red: 33/255.0, green: 33/255.0, blue: 33/255.0, alpha: 1), for: UIControl.State.normal)
-            button.setTitleColor(UIColor.init(red: 33/255.0, green: 33/255.0, blue: 33/255.0, alpha: 1), for: UIControl.State.highlighted)
+            button.setTitleColor(UIColor.init(red: 24/255.0, green: 116/255.0, blue: 255/255.0, alpha: 1), for: UIControl.State.normal)
+            button.setTitleColor(UIColor.init(red: 24/255.0, green: 116/255.0, blue: 255/255.0, alpha: 1), for: UIControl.State.highlighted)
             button.setImage(UIImage(named: image), for: UIControl.State.normal)
             button.setImage(UIImage(named: selectImages[index]), for: UIControl.State.selected)
-            button.imageEdgeInsets = index != self.center_index ? self.tabbarItemImageInset : self.tabbarCenterImageInset
             if let _c_index = self.center_index {
                 if index < _c_index {
                     button.frame = CGRect(x: item_width * CGFloat(index), y: .zero, width: item_width, height: item_height)

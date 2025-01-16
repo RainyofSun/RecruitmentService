@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  RecruitmentService
+
+  Created by Yu Chen  on 2025/1/16.
+  
+*/
+
+// MARK: Tabbar
+"tabbar_home" = "主页";
+"tabbar_publish" = "发布";
+"tabbar_notification" = "通知";
+"tabbar_mine" = "我的";
+
+// MARK: ALert
+"alert_btn_ok" = "好";
+"alert_btn_cancel" = "不允许";
+"alert_title" = "温馨提示";
+"alert_left_title" = "取消";
+
+// MARK: Notification
+"notification_empty_title" = "暂未发布需求";
+"notification_empty_try_title" = "去发布";
