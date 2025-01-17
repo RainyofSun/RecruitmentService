@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RSAPPPublishViewController: APBaseViewController {
+class RSAPPPublishViewController: APBaseViewController, HideNavigationBarProtocol {
 
     override func viewDidLoad() {
         super.viewDidLoad()

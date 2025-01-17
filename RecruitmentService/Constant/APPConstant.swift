@@ -8,7 +8,7 @@
 import UIKit
 
 // MARK: URL
-let BASE_URL: String = "https://api.github.com/"
+let BASE_URL: String = "http://mapi.thcornwallet.com"
 
 // MARK: Frame
 let ScreenWidth: CGFloat = UIScreen.main.bounds.width

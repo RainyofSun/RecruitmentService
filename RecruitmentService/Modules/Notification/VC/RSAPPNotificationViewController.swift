@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RSAPPNotificationViewController: APBaseViewController {
+class RSAPPNotificationViewController: APBaseViewController, HideNavigationBarProtocol {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -16,7 +16,7 @@ import Moya
 class NetRequestInterceptor: RequestInterceptor {
     func adapt(_ urlRequest: URLRequest, for session: Session, completion: @escaping (Result<URLRequest, Error>) -> Void) {
         var request = urlRequest
-        if let token = Global.shared.token {
+        if let token = Global.shared.userData?.token {
             request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
         }
         completion(.success(request))
@@ -33,7 +33,7 @@ class NetRequestInterceptor: RequestInterceptor {
             return completion(.doNotRetry)
         }
         
-        if Global.shared.token != nil {
+        if Global.shared.userData?.token != nil {
             MoyaProvider<AuthApi>(plugins: [NetworkLoggerPlugin()]).request(.refreshToken) { result in
                 switch result {
                 case .success(let response):

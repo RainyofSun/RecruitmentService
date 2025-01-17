@@ -31,4 +31,19 @@ extension UIButton {
         
         return btn
     }
+    
+    class func buildImageButton(normalImg: String, selectedImg: String? = nil, backgroundImg: String? = nil) -> UIButton {
+        let btn = UIButton(type: UIButton.ButtonType.custom)
+        btn.setImage(UIImage(named: normalImg), for: UIControl.State.normal)
+        
+        if let _sel = selectedImg {
+            btn.setImage(UIImage(named: _sel), for: UIControl.State.selected)
+        }
+        
+        if let _back = backgroundImg {
+            btn.setBackgroundImage(UIImage(named: _back), for: UIControl.State.normal)
+        }
+        
+        return btn
+    }
 }

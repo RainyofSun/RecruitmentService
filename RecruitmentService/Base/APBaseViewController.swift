@@ -19,19 +19,31 @@ class APBaseViewController: UIViewController {
     }()
     
     private lazy var logoImgView: UIImageView = {
-        let view = UIImageView(image: UIImage(named: ""))
+        let view = UIImageView(image: UIImage(named: "applogoSmall"))
         view.layer.cornerRadius = 15
         view.clipsToBounds = true
         return view
     }()
     
-    private lazy var appNameLab: UILabel = UILabel.buildLabel(title: Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as? String, labFont: UIFont(name: "HelveticaNeue-BoldItalic", size: 18))
+    private lazy var appNameLab: UILabel = UILabel.buildLabel(title: UIDevice.appName(), labFont: UIFont(name: "HelveticaNeue-BoldItalic", size: 18))
     
     private lazy var gradientView: RSAPPGradientView = {
         let view = RSAPPGradientView(frame: CGRectZero)
         view.createGradient(gradientColors: [UIColor.hexString("#FFFFFF"), UIColor.hexString("#FBFCFF"), UIColor.hexString("#F1F5FE")], gradientStyle: .leftToRight)
         return view
     }()
+    
+    private(set) lazy var contentView: UIScrollView = {
+        let view = UIScrollView(frame: CGRectZero)
+        view.contentInsetAdjustmentBehavior = .never
+        return view
+    }()
+    
+    open var hideTopView: Bool? {
+        didSet {
+            self.topView.isHidden = hideTopView ?? false
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,9 +67,11 @@ class APBaseViewController: UIViewController {
         self.view.addSubview(self.topView)
         self.topView.addSubview(self.logoImgView)
         self.topView.addSubview(self.appNameLab)
+        self.view.addSubview(self.contentView)
     }
     
     public func layoutControlViews() {
+        
         self.gradientView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
         }
@@ -76,6 +90,40 @@ class APBaseViewController: UIViewController {
         self.appNameLab.snp.makeConstraints { make in
             make.left.equalTo(self.logoImgView.snp.right).offset(PADDING_UNIT * 2)
             make.centerY.equalTo(self.logoImgView)
+        }
+        
+        if let _childrenVC = self.navigationController?.children, _childrenVC.count > 1 {
+            self.contentView.snp.makeConstraints { make in
+                make.horizontalEdges.equalToSuperview()
+                make.top.equalTo(self.topView.snp.bottom).offset(PADDING_UNIT)
+                make.bottom.equalToSuperview().offset(-UIDevice.xp_safeDistanceBottom() - PADDING_UNIT)
+            }
+        } else {
+            if self.presentingViewController != nil {
+                if self.hideTopView ?? false {
+                    self.contentView.snp.makeConstraints { make in
+                        make.edges.equalToSuperview()
+                    }
+                } else {
+                    self.contentView.snp.makeConstraints { make in
+                        make.horizontalEdges.equalToSuperview()
+                        make.top.equalTo(self.topView.snp.bottom).offset(PADDING_UNIT)
+                        make.bottom.equalToSuperview()
+                    }
+                }
+            } else {
+                if self.hideTopView ?? false {
+                    self.contentView.snp.makeConstraints { make in
+                        make.edges.equalToSuperview()
+                    }
+                } else {
+                    self.contentView.snp.makeConstraints { make in
+                        make.horizontalEdges.equalToSuperview()
+                        make.top.equalTo(self.topView.snp.bottom).offset(PADDING_UNIT)
+                        make.bottom.equalToSuperview().offset(-UIDevice.xp_tabBarFullHeight() - PADDING_UNIT)
+                    }
+                }
+            }
         }
     }
 }

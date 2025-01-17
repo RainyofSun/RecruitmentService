@@ -46,7 +46,11 @@ class RSAPPLanguage: NSObject {
         case .english:
             typeStr = "en"
         case .Auto:
-            typeStr = Locale.current.languageCode ?? "vi"
+#if DEBUG
+            typeStr = "en"
+#else
+            typeStr = Locale.current.languageCode ?? "en"
+#endif
             if let _script_code = Locale.current.scriptCode {
                 typeStr += "-\(_script_code)"
             }

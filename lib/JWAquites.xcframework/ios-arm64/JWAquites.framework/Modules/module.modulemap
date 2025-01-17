@@ -1,0 +1,6 @@
+framework module JWAquites {
+  umbrella header "JWAquites.h"
+  export *
+
+  module * { export * }
+}

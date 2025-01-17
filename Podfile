@@ -23,6 +23,7 @@ def CommonPods
    pod 'TZImagePickerController', '3.8.8'
    pod 'IQKeyboardManagerSwift', '8.0.0'
    pod 'Mach-Swift', '1.1.1'
+   pod 'JWAquites', :path => 'lib'
 end
 
 target 'RecruitmentService' do

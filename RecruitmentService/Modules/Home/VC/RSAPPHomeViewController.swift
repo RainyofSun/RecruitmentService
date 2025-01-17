@@ -6,23 +6,80 @@
 //
 
 import UIKit
+import JWAquites
 
-class RSAPPHomeViewController: APBaseViewController {
+class RSAPPHomeViewController: APBaseViewController, HideNavigationBarProtocol {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.view.backgroundColor = .orange
-    }
+    private lazy var bannerView: UIImageView = UIImageView(image: UIImage(named: "home_banner"))
+    private lazy var firstQuestionItem: RSAPPHomeQuestionView = RSAPPHomeQuestionView(frame: CGRectZero)
+    private lazy var secondQuestionItem: RSAPPHomeQuestionView = RSAPPHomeQuestionView(frame: CGRectZero)
+    private lazy var thirdQuestionItem: RSAPPHomeQuestionView = RSAPPHomeQuestionView(frame: CGRectZero)
+    private lazy var tipView: RSAPPHomeTipView = RSAPPHomeTipView(frame: CGRectZero)
     
     override func buildViewUI() {
         super.buildViewUI()
         
+        self.firstQuestionItem.setQuestionTitle(title: "home_question_title1", content: "home_question_content1")
+        self.secondQuestionItem.setQuestionTitle(title: "home_question_title2", content: "home_question_content2")
+        self.thirdQuestionItem.setQuestionTitle(title: "home_question_title3", content: "home_question_content3")
+        
+        self.firstQuestionItem.addTarget(self, action: #selector(clickQuestionItem(sender: )), for: UIControl.Event.touchUpInside)
+        self.secondQuestionItem.addTarget(self, action: #selector(clickQuestionItem(sender: )), for: UIControl.Event.touchUpInside)
+        self.thirdQuestionItem.addTarget(self, action: #selector(clickQuestionItem(sender: )), for: UIControl.Event.touchUpInside)
+        
+        self.contentView.addSubview(self.bannerView)
+        self.contentView.addSubview(self.firstQuestionItem)
+        self.contentView.addSubview(self.secondQuestionItem)
+        self.contentView.addSubview(self.thirdQuestionItem)
+        self.contentView.addSubview(self.tipView)
+        
+        self.tipView.gotoClosure = { [weak self] (hasLogin: Bool) in
+            if hasLogin {
+                self?.tabBarController?.selectedIndex = 1
+            } else {
+                let navController = APBaseNavigationController(rootViewController: RSAPPLoginViewController())
+                navController.modalPresentationStyle = .fullScreen
+                //self?.present(navController, animated: true, completion: nil)
+                WebPro.enterLoginPage(navController)
+            }
+        }
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        super.touchesBegan(touches, with: event)
-        RSAPPAuthAlertView.showAlertView(title: "xXXXX", content: "nisdadsadjad", superView: self.view) {
-            CocoaLog.debug("----------")
+    override func layoutControlViews() {
+        super.layoutControlViews()
+        
+        self.bannerView.snp.makeConstraints { make in
+            make.left.equalToSuperview().offset(PADDING_UNIT * 7)
+            make.top.equalToSuperview().offset(PADDING_UNIT)
+            make.size.equalTo(CGSize(width: ScreenWidth - PADDING_UNIT * 14, height: (ScreenWidth - PADDING_UNIT * 14) * 0.44))
         }
+        
+        self.firstQuestionItem.snp.makeConstraints { make in
+            make.left.equalToSuperview().offset(PADDING_UNIT * 3)
+            make.top.equalTo(self.bannerView.snp.bottom).offset(PADDING_UNIT * 4)
+            make.width.equalTo(ScreenWidth - PADDING_UNIT * 6)
+        }
+        
+        self.secondQuestionItem.snp.makeConstraints { make in
+            make.left.width.equalTo(self.firstQuestionItem)
+            make.top.equalTo(self.firstQuestionItem.snp.bottom).offset(PADDING_UNIT * 3.5)
+        }
+        
+        self.thirdQuestionItem.snp.makeConstraints { make in
+            make.left.width.equalTo(self.secondQuestionItem)
+            make.top.equalTo(self.secondQuestionItem.snp.bottom).offset(PADDING_UNIT * 3.5)
+        }
+        
+        self.tipView.snp.makeConstraints { make in
+            make.left.width.equalToSuperview()
+            make.top.equalTo(self.thirdQuestionItem.snp.bottom)
+            make.bottom.equalToSuperview().offset(-PADDING_UNIT * 2)
+        }
+    }
+}
+
+@objc private extension RSAPPHomeViewController {
+    func clickQuestionItem(sender: RSAPPHomeQuestionView) {
+        sender.isSelected = !sender.isSelected
     }
 }

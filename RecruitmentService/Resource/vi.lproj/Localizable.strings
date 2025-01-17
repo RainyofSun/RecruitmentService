@@ -18,6 +18,31 @@
 "alert_title" = "Lời khuyên";
 "alert_left_title" = "Hủy bỏ";
 
+// MARK: Home
+"home_question_title1" = "1, %@ là gì?";
+"home_question_content1" = "%@ là một phần mềm được phát hành chủ yếu cho các cá nhân hoặc các tổ chức cung cấp các nhu cầu ngắn hạn như bảo trì tại nhà và dịch vụ làm sạch.";
+"home_question_title2" = "2, Ai là đối tượng phục vụ của %@?";
+"home_question_content2" = "%@ chủ yếu cung cấp cho các cá nhân hoặc các tổ chức tham khảo các dịch vụ, nhu cầu phát hành và thảo luận các dự án dịch vụ để đáp ứng nhu cầu hàng ngày của cuộc sống";
+"home_question_title3" = "3, Làm thế nào để sử dụng %@?";
+"home_question_content3" = "Sau khi đăng nhập, bạn có thể đăng tải yêu cầu của bạn trên trang xuất bản, và sau đó chờ đợi cho các dịch vụ để liên lạc với bạn.";
+"home_tip_unlogin" = "Hiện không đăng nhập, không thể sử dụng chức năng nền tảng";
+"home_tip_goto_login" = "Đăng nhập";
+"home_tip_unpublish" = "Chưa phát hành yêu cầu";
+"home_tip_goto_publish" = "Công bố";
+
 // MARK: Notification
 "notification_empty_title" = "Chưa phát hành yêu cầu";
 "notification_empty_try_title" = "Để phát hành";
+
+// MARK: Login
+"login_vistor" = "Du khách";
+"login_tip" = "Nền tảng dịch vụ một công việc bất kỳ";
+"login_phone_placeholder" = "Xin vui lòng nhập số điện thoại của bạn";
+"login_code_placeholder" = "Hãy nhập captcha";
+"login_get_code" = "Captcha";
+"login_login_tip" = "Đăng nhập đầu tiên là đăng ký";
+"login_btn_title" = "Đăng nhập";
+"login_protocol1" = "Đăng nhập là đồng ý ";
+"login_protocol2" = "《Giao thức người dùng》";
+"login_protocol3" = " và ";
+"login_protocol4" = "《Chính sách riêng tư》";

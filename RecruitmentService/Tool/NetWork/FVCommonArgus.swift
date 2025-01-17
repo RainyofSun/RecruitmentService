@@ -27,7 +27,7 @@ class FVCommonArgus: NSObject {
         // 设备版本
         let sysVersion: String = UIDevice.current.systemVersion
         // 登录态
-        let loginStatus: String = Global.shared.token ?? ""
+        let loginStatus: String = Global.shared.userData?.token ?? ""
         // IDFA
 //        let idfa: String = FVDeviceAuthorizationTool.ATTTrackingStatus() == .authorized ? ASIdentifierManager.shared().advertisingIdentifier.uuidString : ""
         

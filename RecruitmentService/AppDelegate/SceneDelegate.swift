@@ -60,7 +60,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 private extension SceneDelegate {
     func setRootWindow() {
         self.window?.backgroundColor = .white
-        self.window?.rootViewController = APBaseTabBarController()
         self.window?.makeKeyAndVisible()
     }
 }

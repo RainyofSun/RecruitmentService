@@ -436,4 +436,9 @@ extension UIDevice {
         
         return identifier
     }
+    
+    // APP名字
+    public static func appName() -> String {
+        return Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as? String ?? ""
+    }
 }

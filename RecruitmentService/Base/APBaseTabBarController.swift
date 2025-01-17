@@ -26,6 +26,14 @@ class APBaseTabBarController: UITabBarController {
         self.setupUI()
     }
     
+    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+        if let keyPath = keyPath, let change = change, let newValue = change[.newKey] as? Bool {
+            if keyPath == APP_LOGIN_KEY && !newValue {
+                self.selectedIndex = .zero
+            }
+        }
+    }
+    
     deinit {
         deallocPrint()
     }
@@ -43,6 +51,8 @@ private extension APBaseTabBarController {
         self.addMyVC()
         self.customBar = tabbar
         self.selectedIndex = .zero
+        
+        Global.shared.addObserver(self, forKeyPath: APP_LOGIN_KEY, options: .new, context: nil)
     }
     
     func addMyVC() {

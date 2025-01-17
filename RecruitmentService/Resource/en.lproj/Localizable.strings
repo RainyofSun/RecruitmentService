@@ -18,6 +18,31 @@
 "alert_title" = "温馨提示";
 "alert_left_title" = "取消";
 
+// MARK: Home
+"home_question_title1" = "1. %@ 是干什么的？";
+"home_question_content1" = "%@ 是一个主要为个人或者机构提供上门维修和保洁服务等短时需求发布的软件。";
+"home_question_title2" = "2. %@ 的服务对象是谁？";
+"home_question_content2" = "%@ 主要向个人或者机构提供查阅服务者、需求发布和磋商服务项目，以满足生活日常需要";
+"home_question_title3" = "3. 如何使用 %@ ?";
+"home_question_content3" = "您可以在登录后在发布页面发布您的需求，然后等待服务者与您联系即可。";
+"home_tip_unlogin" = "当前未登录，无法使用平台功能";
+"home_tip_goto_login" = "去登录";
+"home_tip_unpublish" = "暂未发布需求";
+"home_tip_goto_publish" = "去发布";
+
 // MARK: Notification
 "notification_empty_title" = "暂未发布需求";
 "notification_empty_try_title" = "去发布";
+
+// MARK: Login
+"login_vistor" = "游客访问";
+"login_tip" = "一站式零工服务平台";
+"login_phone_placeholder" = "请输入您的电话号码";
+"login_code_placeholder" = "请输入验证码";
+"login_get_code" = "获取验证码";
+"login_login_tip" = "首次登录即注册";
+"login_btn_title" = "登录";
+"login_protocol1" = "登录即代表同意 ";
+"login_protocol2" = "《用户协议》";
+"login_protocol3" = " 和 ";
+"login_protocol4" = "《隐私政策》";

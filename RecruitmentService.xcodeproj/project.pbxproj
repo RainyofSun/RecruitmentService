@@ -8,9 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		111136ED038A2960C308C6A2 /* Pods_RecruitmentService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D512ABED5C251B86425A6FEA /* Pods_RecruitmentService.framework */; };
+		4B7AA9662D3A789F00018CF7 /* RiskPerception.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7AA9652D3A789F00018CF7 /* RiskPerception.framework */; };
+		4B7AA9672D3A789F00018CF7 /* RiskPerception.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7AA9652D3A789F00018CF7 /* RiskPerception.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4B7AA9682D3A789F00018CF7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4B7AA9672D3A789F00018CF7 /* RiskPerception.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4B7AA9652D3A789F00018CF7 /* RiskPerception.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RiskPerception.framework; path = lib/RiskPerception.framework; sourceTree = "<group>"; };
 		4BD890882D361954005F4D0E /* RecruitmentService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecruitmentService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C767852C06FC4621192E0B4 /* Pods-RecruitmentService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecruitmentService.release.xcconfig"; path = "Target Support Files/Pods-RecruitmentService/Pods-RecruitmentService.release.xcconfig"; sourceTree = "<group>"; };
 		D512ABED5C251B86425A6FEA /* Pods_RecruitmentService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecruitmentService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B7AA9662D3A789F00018CF7 /* RiskPerception.framework in Frameworks */,
 				111136ED038A2960C308C6A2 /* Pods_RecruitmentService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +89,7 @@
 		94B2C77E2A28A2410D51B062 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4B7AA9652D3A789F00018CF7 /* RiskPerception.framework */,
 				D512ABED5C251B86425A6FEA /* Pods_RecruitmentService.framework */,
 			);
 			name = Frameworks;
@@ -97,6 +116,8 @@
 				4BD890852D361954005F4D0E /* Frameworks */,
 				4BD890862D361954005F4D0E /* Resources */,
 				82358A51AF579BF626520501 /* [CP] Embed Pods Frameworks */,
+				0B5427C9CF64C97C5FFDDA9D /* [CP] Copy Pods Resources */,
+				4B7AA9682D3A789F00018CF7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,6 +178,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0B5427C9CF64C97C5FFDDA9D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecruitmentService/Pods-RecruitmentService-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecruitmentService/Pods-RecruitmentService-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RecruitmentService/Pods-RecruitmentService-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		82358A51AF579BF626520501 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -219,6 +257,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8HR7KN9336;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RecruitmentService/SupportFiles/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = RecruitmentService;
@@ -256,6 +298,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8HR7KN9336;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RecruitmentService/SupportFiles/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = RecruitmentService;
