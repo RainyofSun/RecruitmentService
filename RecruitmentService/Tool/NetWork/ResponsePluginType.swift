@@ -10,23 +10,23 @@ import Moya
 import SwiftyJSON
 import Alamofire
 
-private let responseDataKey = "pyrazine"
-private let responseCodeKey = "polycyclic"
-private let responseMsgKey  = "antiaromatic"
+private let responseDataKey = "data"
+private let responseCodeKey = "code"
+private let responseMsgKey  = "message"
 private let successCode: Int = 0
 private var responseExtensionKey: String = "MsgInfoKey"
 
 class ResponsePluginType: PluginType {
     // 准备发起请求,可以在这里对请求进行修改，比如再增加一些额外的参数。
-    func prepare(_ request: URLRequest, target: TargetType) -> URLRequest {
-        guard let _originalUrl = request.url?.absoluteString else {
-            return request
-        }
-        var newRequest: URLRequest = request
-        let url: String = FVCommonArgus.splicingCommonParameters(_originalUrl)
-        newRequest.url = URL(string: url)
-        return newRequest
-    }
+//    func prepare(_ request: URLRequest, target: TargetType) -> URLRequest {
+//        guard let _originalUrl = request.url?.absoluteString else {
+//            return request
+//        }
+//        var newRequest: URLRequest = request
+//        let url: String = FVCommonArgus.splicingCommonParameters(_originalUrl)
+//        newRequest.url = URL(string: url)
+//        return newRequest
+//    }
     
     // 开始发起请求
     func willSend(_ request: RequestType, target: TargetType) {
@@ -75,8 +75,20 @@ class ResponsePluginType: PluginType {
             res.responseMsg = msgInfo
             return res
         } catch {
-            let res = Response(statusCode: json[responseCodeKey].intValue, data: Data(), request: response.request, response: response.response)
-            return res
+            let string = json[responseDataKey].stringValue
+            if string.isEmpty {
+                let res = Response(statusCode: json[responseCodeKey].intValue, data: Data(), request: response.request, response: response.response)
+                return res
+            } else {
+                if let _data = string.data(using: String.Encoding.utf8) {
+                    let res = Response(statusCode: json[responseCodeKey].intValue, data: _data, request: response.request, response: response.response)
+                    res.responseMsg = string
+                    return res
+                } else {
+                    let res = Response(statusCode: json[responseCodeKey].intValue, data: Data(), request: response.request, response: response.response)
+                    return res
+                }
+            }
         }
     }
 }

@@ -17,7 +17,7 @@ class RSAPPLoginViewController: APBaseViewController, HideNavigationBarProtocol 
     }
     
     private lazy var vistorBtn: UIButton = UIButton.buildButton(title: RSAPPLanguage.localValue("login_vistor"), titleColor: BLACK_COLOR_333333, titleFont: UIFont.systemFont(ofSize: 16), backgroudColor: UIColor.clear)
-    private lazy var logoImgView: UIImageView = UIImageView(image: UIImage(named: "applogoSmall"))
+    private lazy var logoImgView: UIImageView = UIImageView(image: UIImage(named: "login_logo"))
     private lazy var titleLab: UILabel = UILabel.buildLabel(title: RSAPPLanguage.localValue("login_tip"), titleColor: BLACK_COLOR_333333, labFont: UIFont.systemFont(ofSize: 15))
     private lazy var phoneTextFiled: RSAPPCustomTextFiled = {
         let view = RSAPPCustomTextFiled(frame: CGRectZero)
@@ -27,6 +27,7 @@ class RSAPPLoginViewController: APBaseViewController, HideNavigationBarProtocol 
         view.attributedPlaceholder = NSAttributedString(string: RSAPPLanguage.localValue("login_phone_placeholder"), attributes: [.foregroundColor: UIColor.hexString("#6B7280"), .font: UIFont.systemFont(ofSize: 14)])
         view.textColor = BLACK_COLOR_333333
         view.font = UIFont.systemFont(ofSize: 14, weight: UIFont.Weight.medium)
+        view.keyboardType = .numberPad
         return view
     }()
     
@@ -38,6 +39,7 @@ class RSAPPLoginViewController: APBaseViewController, HideNavigationBarProtocol 
         view.attributedPlaceholder = NSAttributedString(string: RSAPPLanguage.localValue("login_code_placeholder"), attributes: [.foregroundColor: UIColor.hexString("#6B7280"), .font: UIFont.systemFont(ofSize: 14)])
         view.textColor = BLACK_COLOR_333333
         view.font = UIFont.systemFont(ofSize: 14, weight: UIFont.Weight.medium)
+        view.keyboardType = .numberPad
         return view
     }()
     
@@ -71,6 +73,7 @@ class RSAPPLoginViewController: APBaseViewController, HideNavigationBarProtocol 
         super.buildViewUI()
         self.hideTopView = true
         
+        self.protocolBtn.isSelected = true
         self.privacyTextView.delegate = self
         
         self.vistorBtn.addTarget(self, action: #selector(clickVistorButton(sender: )), for: UIControl.Event.touchUpInside)
@@ -179,6 +182,7 @@ class RSAPPLoginViewController: APBaseViewController, HideNavigationBarProtocol 
             return
         }
         
+        self.view.endEditing(true)
         WebPro.loginPhone(_phone, withCode: _code)
     }
     
@@ -192,10 +196,12 @@ extension RSAPPLoginViewController: UITextViewDelegate {
     func textView(_ textView: UITextView, shouldInteractWith URL: URL, in characterRange: NSRange) -> Bool {
         if URL.scheme == "frist" {
             CocoaLog.debug("------ 用户协议 -------")
+            self.navigationController?.pushViewController(RSAPPWebViewController(link_url: USER_PRIVACY), animated: true)
             return false
         }
         if URL.scheme == "second" {
             CocoaLog.debug("------ 隐私政策 -------")
+            self.navigationController?.pushViewController(RSAPPWebViewController(link_url: PRIVACY_POLICY), animated: true)
             return false
         }
         return true

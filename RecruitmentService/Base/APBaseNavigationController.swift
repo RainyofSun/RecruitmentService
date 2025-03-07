@@ -87,8 +87,10 @@ private extension APBaseNavigationController {
                      NSAttributedString.Key.font: UIFont.boldFont(size: 18)]
         UINavigationBar.appearance().titleTextAttributes = attrs
         
-        UINavigationBar.appearance().backIndicatorImage = UIImage(systemName: "chevron.backward")
-        UINavigationBar.appearance().backIndicatorTransitionMaskImage = UIImage(systemName: "chevron.backward")
+        let originalImage = UIImage(systemName: "chevron.backward")
+        let tintedImage = originalImage?.withTintColor(BLACK_COLOR_333333, renderingMode: .alwaysOriginal)
+        UINavigationBar.appearance().backIndicatorImage = tintedImage
+        UINavigationBar.appearance().backIndicatorTransitionMaskImage = tintedImage
         UINavigationBar.appearance().shadowImage = barShadowImage()
     }
     

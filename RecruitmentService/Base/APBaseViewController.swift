@@ -8,6 +8,10 @@
 import UIKit
 import FDFullscreenPopGesture
 import SnapKit
+@_exported import HandyJSON
+@_exported import TZImagePickerController
+@_exported import JWAquites
+@_exported import EmptyDataSet_Swift
 
 class APBaseViewController: UIViewController {
     
@@ -125,5 +129,22 @@ class APBaseViewController: UIViewController {
                 }
             }
         }
+    }
+    
+    public func buildRightItem(rightItem: UIView) {
+        if self.topView.isHidden {
+            self.navigationItem.setRightBarButton(UIBarButtonItem(customView: rightItem), animated: true)
+            return
+        }
+        
+        self.topView.addSubview(rightItem)
+        rightItem.snp.makeConstraints { make in
+            make.centerY.equalTo(self.logoImgView)
+            make.right.equalToSuperview().offset(-PADDING_UNIT * 3)
+        }
+    }
+    
+    public func pageRequest() {
+        
     }
 }

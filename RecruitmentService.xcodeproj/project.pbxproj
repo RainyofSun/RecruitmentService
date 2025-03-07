@@ -8,23 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		111136ED038A2960C308C6A2 /* Pods_RecruitmentService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D512ABED5C251B86425A6FEA /* Pods_RecruitmentService.framework */; };
-		4B7AA9662D3A789F00018CF7 /* RiskPerception.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7AA9652D3A789F00018CF7 /* RiskPerception.framework */; };
-		4B7AA9672D3A789F00018CF7 /* RiskPerception.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7AA9652D3A789F00018CF7 /* RiskPerception.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		4B7AA9682D3A789F00018CF7 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				4B7AA9672D3A789F00018CF7 /* RiskPerception.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4B7AA9652D3A789F00018CF7 /* RiskPerception.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RiskPerception.framework; path = lib/RiskPerception.framework; sourceTree = "<group>"; };
@@ -60,7 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B7AA9662D3A789F00018CF7 /* RiskPerception.framework in Frameworks */,
 				111136ED038A2960C308C6A2 /* Pods_RecruitmentService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,7 +100,6 @@
 				4BD890862D361954005F4D0E /* Resources */,
 				82358A51AF579BF626520501 /* [CP] Embed Pods Frameworks */,
 				0B5427C9CF64C97C5FFDDA9D /* [CP] Copy Pods Resources */,
-				4B7AA9682D3A789F00018CF7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,22 +242,29 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib",
+					"$(PROJECT_DIR)/RecruitmentService",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RecruitmentService/SupportFiles/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = RecruitmentService;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fiks Go";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Authorize camera access to easily take ID card photos and have a convenient operation process.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "The APP applies to access the contact list. Easily upload contact information to simplify steps and accelerate the loan application.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "The current application collects your location information, uses it for loan risk assessment, and recommends personalized products to you. You can open Settings-Privacy System and set it to off at any time.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The current application collects your location information, uses it for loan risk assessment, and recommends personalized products to you. You can open Settings-Privacy System and set it to off at any time.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Grant album permission to conveniently select and upload identity photos and accelerate the application process.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "The APP applies to obtain the advertising identifier (IDFA) information of your device to provide more accurate and personalized services.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lr.RecruitmentService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -294,31 +283,41 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RecruitmentService/RecruitmentServiceRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8HR7KN9336;
+				DEVELOPMENT_TEAM = UU8BZGZYU9;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib",
+					"$(PROJECT_DIR)/RecruitmentService",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RecruitmentService/SupportFiles/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = RecruitmentService;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fiks Go";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Authorize camera access to easily take ID card photos and have a convenient operation process.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "The APP applies to access the contact list. Easily upload contact information to simplify steps and accelerate the loan application.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "The current application collects your location information, uses it for loan risk assessment, and recommends personalized products to you. You can open Settings-Privacy System and set it to off at any time.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The current application collects your location information, uses it for loan risk assessment, and recommends personalized products to you. You can open Settings-Privacy System and set it to off at any time.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Grant album permission to conveniently select and upload identity photos and accelerate the application process.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "The APP applies to obtain the advertising identifier (IDFA) information of your device to provide more accurate and personalized services.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lr.RecruitmentService;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiksgo123.go;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;

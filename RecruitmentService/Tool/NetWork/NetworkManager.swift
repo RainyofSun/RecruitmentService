@@ -198,7 +198,12 @@ private func NetWorkRequest(_ target: TargetType, needShowFailAlert: Bool = true
                         errorHandler(error: ErrorResponse(code: JSON_SERIALIZATION_ERROR, message: "JSON SERIALIZATION ERROR"), needShowFailAlert: false, failure: failureCallback)
                     }
                 } else {
-                    errorHandler(error: ErrorResponse(code: JSON_SERIALIZATION_ERROR, message: "JSON SERIALIZATION ERROR"), needShowFailAlert: false, failure: failureCallback)
+                    if let string = String(data: response.data, encoding: String.Encoding.utf8) {
+                        respModel.dataJSON = ["stringJson": string]
+                        successCallback(respModel)
+                    } else {
+                        errorHandler(error: ErrorResponse(code: JSON_SERIALIZATION_ERROR, message: "JSON SERIALIZATION ERROR"), needShowFailAlert: false, failure: failureCallback)
+                    }
                 }
             }
         case let .failure(error):

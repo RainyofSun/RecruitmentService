@@ -11,33 +11,25 @@ class RSAPPEmptyView: UIView {
 
     open var gotoPublishClosure:(() -> Void)?
     
-    private lazy var emptyImgView: UIImageView = UIImageView(image: UIImage(named: "menu_slider"))
-    private lazy var titleLab: UILabel = UILabel.buildLabel(title: RSAPPLanguage.localValue("notification_empty_title"), titleColor: GRAY_COLOR_999999, labFont: UIFont.boldSystemFont(ofSize: 34))
-    private lazy var tryBtn: UIButton = UIButton.buildButton(title: RSAPPLanguage.localValue("notification_empty_try_title"), titleColor: .white)
+    private lazy var emptyImgView: UIImageView = UIImageView(image: UIImage(named: "list_empty"))
+    private lazy var titleLab: UILabel = UILabel.buildLabel(title: RSAPPLanguage.localValue("publish_empty_title"), titleColor: GRAY_COLOR_999999, labFont: UIFont.boldSystemFont(ofSize: 24))
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        self.tryBtn.addTarget(self, action: #selector(clickGotoPublishBtn(sender: )), for: UIControl.Event.touchUpInside)
-        
         self.addSubview(self.emptyImgView)
         self.addSubview(self.titleLab)
-        self.addSubview(self.tryBtn)
         
         self.titleLab.snp.makeConstraints { make in
             make.center.equalToSuperview()
             make.width.equalToSuperview().multipliedBy(0.6)
+            make.height.equalTo(35)
         }
         
         self.emptyImgView.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
             make.bottom.equalTo(self.titleLab.snp.top).offset(-PADDING_UNIT * 2)
-        }
-        
-        self.tryBtn.snp.makeConstraints { make in
-            make.centerX.equalToSuperview()
-            make.top.equalTo(self.titleLab.snp.bottom).offset(PADDING_UNIT * 2)
-            make.size.equalTo(CGSize(width: 98, height: 35))
+            make.size.equalTo(240)
         }
     }
     
@@ -47,11 +39,5 @@ class RSAPPEmptyView: UIView {
     
     deinit {
         deallocPrint()
-    }
-}
-
-@objc private extension RSAPPEmptyView {
-    func clickGotoPublishBtn(sender: UIButton) {
-        self.gotoPublishClosure?()
     }
 }

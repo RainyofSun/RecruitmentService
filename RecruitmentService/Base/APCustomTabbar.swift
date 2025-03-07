@@ -9,7 +9,7 @@ import UIKit
 
 protocol APCustomTabbarProtocol: UITabBarController {
     /// 是否可以选中当前 Item
-    func ap_canSelected() -> Bool
+    func ap_canSelected(index: Int) -> Bool
     /// 选中当前 Item
     func ap_didSelctedItem(_ tabbar: APCustomTabbar, item: UIButton, index: Int)
 }
@@ -170,8 +170,8 @@ extension APCustomTabbar {
             let button = APCustomTabbarItem.init(frame: CGRectZero)
             button.setTitle(titles?[index], for: UIControl.State.normal)
             button.setTitle(titles?[index], for: UIControl.State.highlighted)
-            button.setTitleColor(UIColor.init(red: 24/255.0, green: 116/255.0, blue: 255/255.0, alpha: 1), for: UIControl.State.normal)
-            button.setTitleColor(UIColor.init(red: 24/255.0, green: 116/255.0, blue: 255/255.0, alpha: 1), for: UIControl.State.highlighted)
+            button.setTitleColor(UIColor.init(red: 180/255.0, green: 185/255.0, blue: 194/255.0, alpha: 1), for: UIControl.State.normal)
+            button.setTitleColor(UIColor.init(red: 24/255.0, green: 116/255.0, blue: 255/255.0, alpha: 1), for: UIControl.State.selected)
             button.setImage(UIImage(named: image), for: UIControl.State.normal)
             button.setImage(UIImage(named: selectImages[index]), for: UIControl.State.selected)
             if let _c_index = self.center_index {
@@ -220,7 +220,7 @@ private extension APCustomTabbar {
 // MARK: Target
 @objc private extension APCustomTabbar {
     func clickTabbarItem(sender: UIButton) {
-        if !(self.barDelegate?.ap_canSelected() ?? true) {
+        if !(self.barDelegate?.ap_canSelected(index: (sender.tag - 100)) ?? true) {
             return
         }
         self.reseButtonState()

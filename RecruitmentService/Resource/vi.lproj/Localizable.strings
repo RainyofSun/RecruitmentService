@@ -17,6 +17,13 @@
 "alert_btn_cancel" = "Từ chối";
 "alert_title" = "Lời khuyên";
 "alert_left_title" = "Hủy bỏ";
+"alert_camera" = "%@ Muốn truy cập vào máy ảnh của bạn";
+"alert_camera_tip" = "Cung cấp cho bạn dịch vụ chụp ảnh sơ yếu lý lịch";
+"alert_thumb" = "%@ Muốn truy cập vào album ảnh của bạn";
+"alert_contact" = "%@ Muốn truy cập danh bạ của bạn";
+"alert_contact_tip" = "Cung cấp cho bạn dịch vụ liên lạc dự phòng";
+"alert_location" = "%@ Muốn truy cập vị trí của bạn";
+"alert_location_tip" = "Cung cấp cho bạn dịch vụ đăng ký địa điểm dịch vụ";
 
 // MARK: Home
 "home_question_title1" = "1, %@ là gì?";
@@ -25,14 +32,76 @@
 "home_question_content2" = "%@ chủ yếu cung cấp cho các cá nhân hoặc các tổ chức tham khảo các dịch vụ, nhu cầu phát hành và thảo luận các dự án dịch vụ để đáp ứng nhu cầu hàng ngày của cuộc sống";
 "home_question_title3" = "3, Làm thế nào để sử dụng %@?";
 "home_question_content3" = "Sau khi đăng nhập, bạn có thể đăng tải yêu cầu của bạn trên trang xuất bản, và sau đó chờ đợi cho các dịch vụ để liên lạc với bạn.";
-"home_tip_unlogin" = "Hiện không đăng nhập, không thể sử dụng chức năng nền tảng";
+"home_tip_unlogin" = "Bạn chưa đăng nhập nên không thể công bố yêu cầu của mình.";
 "home_tip_goto_login" = "Đăng nhập";
 "home_tip_unpublish" = "Chưa phát hành yêu cầu";
 "home_tip_goto_publish" = "Công bố";
 
+// MARK: Publish
+"publish_top_right_item" = "Nhu cầu mới";
+"publish_top_menu_item1" = "Tất cả";
+"publish_top_menu_item2" = "Tuyển dụng";
+"publish_top_menu_item3" = "Để phát hành";
+"publish_top_menu_item4" = "dòng";
+"publish_empty_title" = "Không có tin tức";
+"publish_task_name" = "Tên yêu cầu";
+"publish_task_end" = "Đã kết thúc";
+"publish_task_stop" = "dừng lại";
+"publish_task_start" = "giải phóng";
+"publish_new_task_nav_title" = "Công bố việc làm";
+"publish_process_step_one" = "Yêu cầu";
+"publish_process_step_two" = "Yêu cầu";
+"publish_process_step_three" = "Yêu cầu phát hành";
+"publish_requirement_type" = "Loại yêu cầu";
+"publish_requirement_type_place" = "Vui lòng chọn loại nhu cầu";
+"publish_requirement_name" = "Tên yêu cầu";
+"publish_requirement_name_place" = "Vui lòng nhập chức danh công việc";
+"publish_requirement_intro" = "Yêu cầu";
+"publish_requirement_intro_place" = "Vui lòng mô tả chi tiết nhu cầu của bạn...";
+"publish_requirement_age" = "Độ tuổi";
+"publish_requirement_age_place" = "Vui lòng chọn độ tuổi";
+"publish_requirement_sex" = "Yêu cầu về giới tính";
+"publish_requirement_sex_place" = "Vui lòng chọn giới tính bạn cần";
+"publish_requirement_education" = "Nền tảng giáo dục";
+"publish_requirement_education_place" = "Vui lòng chọn trình độ học vấn của bạn";
+"publish_requirement_experience" = "Yêu cầu về kinh nghiệm";
+"publish_requirement_experience_place" = "Vui lòng chọn trải nghiệm bạn cần";
+"publish_requirement_stop_time" = "Thời hạn";
+"publish_requirement_stop_time_place" = "Vui lòng nhập ngày kết thúc bán thời gian";
+"publish_requirement_contact" = "Liên hệ";
+"publish_requirement_contact_place" = "Vui lòng nhập số điện thoại liên lạc";
+"publish_requirement_backup" = "Số thay thế";
+"publish_requirement_backup_place" = "Vui lòng nhập một số thay thế";
+"publish_requirement_address" = "Địa điểm dịch vụ";
+"publish_requirement_address_place" = "Vui lòng nhập địa điểm dịch vụ";
+"publish_requirement_detail_address" = "Vị trí chi tiết";
+"publish_requirement_detail_address_place" = "Vị trí chi tiết";
+"publish_requirement_next" = "Bước tiếp theo";
+"publish_requirement_publish" = "giải phóng";
+"publish_requirement_stop" = "dừng lại";
+"publish_requirement_draft" = "Lưu bản nháp";
+
 // MARK: Notification
 "notification_empty_title" = "Chưa phát hành yêu cầu";
 "notification_empty_try_title" = "Để phát hành";
+"notification_check_title" = "%@ người đã xem nó";
+"notification_check_btn_title" = "kiểm tra các chi tiết";
+"notification_worker_des" = "Mô tả bản thân";
+"notification_accept" = "chấp nhận";
+"notification_refuse" = "từ chối";
+"notification_tip1" = "Master %@ đã nhận được yêu cầu của bạn";
+"notification_pop_code" = "Vui lòng nhập mã xác minh";
+"notification_tip2" = "Bạn có chắc chắn dịch vụ đã hoàn tất không? Vui lòng xác nhận sau khi kiểm tra cẩn thận
+Và nhập mã xác minh được cung cấp bởi nhân viên dịch vụ bên dưới";
+"notification_evalute" = "Đánh giá tốt";
+"notification_evalute_tip1" = "Bạn có hài lòng với dịch vụ này không?";
+"notification_evalute_tip2" = "Thái độ phục vụ";
+"notification_evalute_tip3" = "Chất lượng dịch vụ";
+"notification_evalute_tip4" = "Tốc độ dịch vụ";
+"notification_evalute_tip5" = "Vui lòng nhập đánh giá của bạn...";
+"notification_evalute_tip6" = "Nội dung đánh giá";
+"notification_evalute_tip7" = "đánh giá";
+"notification_evalute_tip8" = "Cảm ơn lời khen của bạn~~";
 
 // MARK: Login
 "login_vistor" = "Du khách";
@@ -46,3 +115,114 @@
 "login_protocol2" = "《Giao thức người dùng》";
 "login_protocol3" = " và ";
 "login_protocol4" = "《Chính sách riêng tư》";
+
+// MARK: Mine
+"mine_login_tatus_unlogin" = "Chưa đăng nhập";
+"mine_login_tip" = "Các tính năng khác";
+"mine_about_us" = "về chúng tôi";
+"mine_user_privacy" = "Thỏa thuận người dùng";
+"mine_privacy" = "Chính sách bảo mật";
+"mine_cancel" = "Hủy đăng ký tài khoản";
+"mine_logout" = "Đăng xuất";
+"mine_about_us_text" = "Ứng dụng của chúng tôi chắc chắn là một ứng dụng sáng tạo và hữu ích, nổi bật trong thời đại kỹ thuật số ngày nay. Nó sử dụng thiết kế nhân văn để cẩn thận tạo ra trải nghiệm mới cho người dùng.
+Ứng dụng này chủ yếu tập trung vào các dịch vụ xuất bản và tiếp nhận đơn hàng bảo trì và vệ sinh trực tuyến. Trong lĩnh vực bảo trì, cho dù đó là sự cố phức tạp của thiết bị gia dụng, chẳng hạn như màn hình TV bị hỏng, sự cố làm lạnh của tủ lạnh, máy điều hòa không mát hoặc phát ra tiếng ồn bất thường, v.v.; hoặc hư hỏng các thiết bị gia dụng, chẳng hạn như cửa ra vào và cửa sổ không được đóng chặt, vòi nước bị rò rỉ, bồn cầu bị tắc, v.v.; hoặc nhiều sự cố khác nhau với các sản phẩm điện tử, chẳng hạn như lỗi phần cứng máy tính, thay màn hình điện thoại di động, sự cố hệ thống máy tính bảng, v.v., người dùng có thể dễ dàng công bố nhu cầu bảo trì thông qua ứng dụng. Đội ngũ bảo trì chuyên nghiệp sẽ phản hồi và tiếp nhận đơn hàng nhanh chóng. Với kinh nghiệm phong phú và kỹ năng tuyệt vời, họ có thể cung cấp dịch vụ hiệu quả để giải quyết các vấn đề bảo trì khác nhau cho người dùng và đảm bảo rằng cuộc sống của người dùng không bị ảnh hưởng.
+Về mặt vệ sinh, cho dù đó là vệ sinh nhà cửa hàng ngày, bao gồm vệ sinh nhiều khu vực khác nhau như phòng khách, phòng ngủ, nhà bếp và phòng tắm; hoặc vệ sinh chuyên sâu, chẳng hạn như vệ sinh sâu kính cửa sổ, vệ sinh bên trong các thiết bị gia dụng, v.v.; hoặc nhu cầu vệ sinh ở những khu vực cụ thể, chẳng hạn như giặt ghế sofa, giặt rèm cửa, v.v., người dùng cũng có thể đăng nhiệm vụ một cách thuận tiện. Đội ngũ vệ sinh giàu kinh nghiệm sẽ tiếp nhận đơn hàng kịp thời. Họ sử dụng các công cụ vệ sinh chuyên nghiệp và chất tẩy rửa thân thiện với môi trường để cung cấp cho người dùng dịch vụ vệ sinh chất lượng cao, giúp không gian sống của người dùng trông như mới.
+Chúng tôi cam kết tạo ra một nền tảng dịch vụ bảo trì và vệ sinh trực tuyến tiện lợi, hiệu quả và đáng tin cậy. Nhà cung cấp dịch vụ của chúng tôi có kỹ năng chuyên nghiệp và thái độ phục vụ tốt. Đồng thời, hệ thống đánh giá hoàn hảo còn cho phép người dùng cung cấp phản hồi về dịch vụ, thúc đẩy cải tiến liên tục chất lượng dịch vụ. Mang lại nhiều tiện ích hơn cho cuộc sống của người dùng và trở thành trợ thủ đắc lực không thể thiếu trong cuộc sống của người dùng.";
+"mine_protocol_pop_title" = "Thỏa thuận người dùng/Chính sách bảo mật";
+"mine_protocol_pop_content" = "Chúng tôi cam kết bảo vệ tính bảo mật của thông tin cá nhân của bạn. Nền tảng này chỉ thu thập dữ liệu người dùng cần thiết để cung cấp dịch vụ, cải thiện trải nghiệm và tuân thủ các yêu cầu pháp lý. Chúng tôi sẽ giữ bí mật tuyệt đối và sẽ không tiết lộ cho bất kỳ bên thứ ba nào trừ khi chúng tôi có được sự đồng ý rõ ràng của người dùng hoặc theo yêu cầu của pháp luật. Tất cả dữ liệu được lưu trữ và truyền đi dưới dạng mã hóa. Người dùng có quyền truy cập, chỉnh sửa hoặc xóa thông tin cá nhân của mình bất cứ lúc nào. Nếu bạn có bất kỳ thắc mắc nào, vui lòng liên hệ với chúng tôi.";
+"mine_protocol_close" = "đóng cửa";
+"mine_pop_cancel" = "Sau khi tài khoản bị hủy, chúng tôi sẽ xóa thông tin trong tài khoản của bạn
+Xin hãy cẩn thận! ! !";
+"mine_pop_cancel_right_title" = "Đăng xuất";
+"mine_pop_unlogin_tip" = "Chúng tôi phát hiện bạn hiện chưa đăng nhập. Bạn có thể sử dụng chức năng này sau khi đăng nhập.";
+"mine_pop_unlogin_right_title" = "Đăng nhập";
+
+// MARK: Refresh
+"refresh_pull_idle" = "Kéo xuống để làm mới";
+"refresh_pulling" = "Phát hành để làm mới";
+"refresh_refreshing" = "Đang tải...";
+"refresh_footer_idle" = "Nhấn hoặc kéo lên để tải thêm";
+"refresh_footer_refreshing" = "Đang tải...";
+"refresh_footer_nomoredata" = "Không còn dữ liệu nữa";
+
+// MARK: Pop
+"pop_task_type_title" = "Vui lòng chọn loại";
+"pop_cancel" = "Hủy bỏ";
+"pop_confirm" = "xác nhận";
+"pop_thumb" = "Tải lên album";
+"pop_camera" = "Chụp ảnh và tải lên";
+"pop_complete_requirement" = "Vui lòng hoàn thành thông tin tuyển dụng";
+
+// MARK: 任务类型
+"task_type1" = "Sửa chữa";
+"task_suubtype1_1" = "Máy truyền hình";
+"task_suubtype1_2" = "tủ lạnh";
+"task_suubtype1_3" = "máy điều hòa không khí";
+"task_suubtype1_4" = "máy giặt";
+"task_suubtype1_5" = "Máy nước nóng";
+"task_suubtype1_6" = "máy tính";
+"task_suubtype1_7" = "điện thoại di động";
+"task_suubtype1_8" = "Viên thuốc";
+"task_suubtype1_9" = "Chiếu sáng";
+"task_suubtype1_10" = "Vòi nước";
+"task_suubtype1_11" = "nhà vệ sinh";
+"task_suubtype1_12" = "Cửa ra vào và cửa sổ";
+"task_suubtype1_13" = "nội thất";
+"task_suubtype1_14" = "Ống cống";
+"task_suubtype1_15" = "Ống nước";
+"task_suubtype1_16" = "Khóa";
+"task_suubtype1_17" = "Dụng cụ điện";
+
+"task_type2" = "Vệ sinh";
+"task_suubtype2_1" = "Lau sạch bề mặt đồ nội thất";
+"task_suubtype2_2" = "Vệ sinh sàn nhà";
+"task_suubtype2_3" = "Vệ sinh trang trí";
+"task_suubtype2_4" = "Lau cửa sổ";
+"task_suubtype2_5" = "Làm giường";
+"task_suubtype2_6" = "Vệ sinh đồ nội thất";
+"task_suubtype2_7" = "Vệ sinh sàn nhà";
+"task_suubtype2_8" = "Vệ sinh bề mặt tủ";
+"task_suubtype2_9" = "Vệ sinh bếp";
+"task_suubtype2_10" = "Vệ sinh bồn rửa";
+"task_suubtype2_11" = "Vệ sinh bề mặt thiết bị điện";
+"task_suubtype2_12" = "Vệ sinh nhà vệ sinh";
+"task_suubtype2_13" = "Vệ sinh bồn rửa mặt";
+"task_suubtype2_14" = "Vệ sinh vòi hoa sen";
+
+// MARK: 年龄
+"age_1" = "18-22 tuổi";
+"age_2" = "23-30 tuổi";
+"age_3" = "31-45 tuổi";
+"age_4" = "46-55 tuổi";
+"age_5" = "Trên 55 tuổi";
+
+// MARK: 性别
+"sex_1" = "nam giới";
+"sex_2" = "nữ giới";
+"sex_3" = "Không giới hạn";
+
+// MARK: 学历
+"education_1" = "Không giới hạn";
+"education_2" = "Tiểu học trở xuống";
+"education_3" = "trường trung học cơ sở";
+"education_4" = "trung học phổ thông";
+"education_5" = "Đại học trở lên";
+
+// MARK: 经验
+"experience_1" = "Không giới hạn";
+"experience_2" = "Một năm hoặc ít hơn";
+"experience_3" = "1-3 năm";
+"experience_4" = "3-5 năm";
+"experience_5" = "5+ năm";
+
+// MARK: Alert
+"alert_addressbook_system" = "ứng dụng áp dụng để truy cập danh sách liên lạc";
+"alert_location_system" = "Ứng dụng hiện tại thu thập thông tin vị trí của mọi người. Bạn có thể mở cài đặt-hệ thống riêng tư và tắt CNTT bất cứ lúc nào.";
+"alert_camera_system" = "cho phép truy cập camera để chụp ảnh dễ dàng và có quy trình vận hành thuận tiện";
+"alert_album_system" = "Cấp quyền cho album để chọn và tải ảnh lên một cách thuận tiện và đẩy nhanh quá trình áp dụng.";
+"alert_address" = "Vui lòng xác minh địa chỉ của bạn";
+"alert_sheet_cancel" = "Hủy bỏ";
+"alert_sheet_ok" = "OK";
+"alert_save_draft_success" = "Đã lưu bản nháp thành công!";
+"alert_publish_success" = "Thông tin tuyển dụng đã được công bố thành công!";
+"alert_stop_success" = "Tuyển dụng đã dừng lại!";

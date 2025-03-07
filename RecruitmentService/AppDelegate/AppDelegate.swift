@@ -22,11 +22,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         WebPro.initWithConfiguration { (config: JWAConfigInfo) in
             config.host = BASE_URL
-            config.bundleID = Bundle.main.bundleIdentifier ?? ""
             config.delegate = self
-#if DEBUG
+//#if DEBUG
             config.isDev = true
-#endif
+            config.bundleID = Boundle_ID
+//#else
+//            config.bundleID = Bundle.main.bundleIdentifier ?? ""
+//#endif
         }
         return true
     }
@@ -57,8 +59,11 @@ extension AppDelegate: WebProDelegate {
     
     func appWillEnterMainPage(_ data: JWALoginData!) {
         CocoaLog.debug("用户信息:\n 登录状态 = \(data.isLogin) 用户ID = \(data.userId) 用户手机号 = \(data.phone) 登录标识符 = \(data.token) --- \n")
-        Global.shared.userData = data
-        
+        if data.isLogin {
+            Global.shared.userData = data
+            Global.shared.saveRequirementMessageToServer()
+        }
+            
         WebPro.enterMainPage(APBaseTabBarController())
     }
 }

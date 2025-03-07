@@ -1,0 +1,2972 @@
+[
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa máy giặt",
+            "requirementIntro": "Hệ thống xả nước của máy giặt bị tắc, không thể làm khô bình thường",
+            "age": "25-35 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-31",
+            "contactPhone": "13812345678",
+            "backupPhone": "15898765432",
+            "address": "Đại lộ Thời đại, Quận Tân Phú, Thành phố Hồ Chí Minh",
+            "detailAddress": "Số 88 Đường Hoa Vườn",
+            "status": 1
+        },
+        "worker": {
+            "age": "28 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "3-4 năm",
+            "avatar": "",
+            "name": "Lǐ **",
+            "intro": "Tôi là một kỹ thuật viên chuyên nghiệp trong việc sửa chữa gia dụng, có nhiều năm kinh nghiệm trong việc sửa chữa các thiết bị gia dụng. Tôi chuyên xử lý tất cả các sự cố gia dụng, bao gồm nhưng không giới hạn ở tủ lạnh, máy giặt, máy điều hòa và các thiết bị khác. Tôi làm việc một cách nghiêm túc, có thể xác định chính xác và nhanh chóng các vấn đề và cung cấp các giải pháp hiệu quả."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không làm mát hiệu quả, thực phẩm dễ bị hỏng",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-11-20",
+            "contactPhone": "13543216789",
+            "backupPhone": "13456789012",
+            "address": "Thành phố Hồ Chí Minh, Quận 1",
+            "detailAddress": "Đường Số 1",
+            "status": 1
+        },
+        "worker": {
+            "age": "27 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "2-3 năm",
+            "avatar": "",
+            "name": "Nguyễn **",
+            "intro": "Tôi là một kỹ thuật viên chuyên sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có kinh nghiệm nhiều năm trong việc giải quyết các sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa máy giặt",
+            "requirementIntro": "Máy giặt không quay, không thể làm sạch quần áo",
+            "age": "22-32 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-1-15",
+            "contactPhone": "13698765432",
+            "backupPhone": "13578945612",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đại lộ Võ Nguyên Giáp",
+            "status": 1
+        },
+        "worker": {
+            "age": "30 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Đặng **",
+            "intro": "Tôi là một người có nhiều kinh nghiệm trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy giặt. Tôi có khả năng giải quyết tất cả các sự cố liên quan đến máy giặt."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa bếp từ",
+            "requirementIntro": "Bếp từ không lên nhiệt, không thể nấu nướng",
+            "age": "23-33 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-10-10",
+            "contactPhone": "13543216789",
+            "backupPhone": "13456789012",
+            "address": "Đà Nẵng, Quận Thanh Khê",
+            "detailAddress": "Đường 2 tháng 9",
+            "status": 1
+        },
+        "worker": {
+            "age": "29 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "3-4 năm",
+            "avatar": "",
+            "name": "Lê **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là bếp từ. Tôi có khả năng giải quyết mọi sự cố liên quan đến bếp từ."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa máy lọc nước",
+            "requirementIntro": "Máy lọc nước không hoạt động, không thể cung cấp nước sạch",
+            "age": "21-31 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-11",
+            "contactPhone": "13712345678",
+            "backupPhone": "13623456789",
+            "address": "TP. HCM, Quận Tân Bình",
+            "detailAddress": "Đường Võ Thị Sáu",
+            "status": 1
+        },
+        "worker": {
+            "age": "28 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "3-4 năm",
+            "avatar": "",
+            "name": "Phan **",
+            "intro": "Tôi là một kỹ thuật viên chuyên nghiệp trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy lọc nước. Tôi có thể giải quyết mọi sự cố liên quan đến máy lọc nước."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 4,
+            "requirementName": "Sửa bếp từ",
+            "requirementIntro": "Bếp từ không lên lửa, không thể nấu nướng các món ăn. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa bếp từ để kiểm tra và khắc phục sự cố này.",
+            "age": "25-35 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2026-01-15",
+            "contactPhone": "13579246810",
+            "backupPhone": "13468102468",
+            "address": "Hà Nội, Quận Bắc Từ Liêm",
+            "detailAddress": "Đường Xuân Thủy",
+            "status": 1
+        },
+        "worker": {
+            "age": "30 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "7-8 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là bếp từ. Tôi có khả năng giải quyết mọi sự cố liên quan đến bếp từ."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 11,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không đủ lạnh, không thể bảo quản thực phẩm. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ lạnh để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-20",
+            "contactPhone": "13689753124",
+            "backupPhone": "13574123698",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "33 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "6-7 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 2,
+            "requirementName": "Sửa tủ quần áo",
+            "requirementIntro": "Tủ quần áo không hoạt động, không thể sấy khô quần áo. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ quần áo để kiểm tra và khắc phục sự cố này.",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-10-30",
+            "contactPhone": "13792468105",
+            "backupPhone": "13681052469",
+            "address": "Hà Nội, Quận Hoàng Mai",
+            "detailAddress": "Đường Kim Mã",
+            "status": 1
+        },
+        "worker": {
+            "age": "28 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "5-6 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ quần áo. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ quần áo."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 8,
+            "requirementName": "Sửa máy giặt",
+            "requirementIntro": "Máy giặt không hoạt động, không thể rửa quần áo. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa máy giặt để kiểm tra và khắc phục sự cố này.",
+            "age": "25-35 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-11-25",
+            "contactPhone": "13579246810",
+            "backupPhone": "13468102468",
+            "address": "Hà Nội, Quận Đống Đa",
+            "detailAddress": "Đường Võ Nguyên Giáp",
+            "status": 1
+        },
+        "worker": {
+            "age": "31 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "6-7 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy giặt. Tôi có khả năng giải quyết mọi sự cố liên quan đến máy giặt."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 6,
+            "requirementName": "Sửa lò vi sóng",
+            "requirementIntro": "Lò vi sóng không hoạt động, không thể nấu nướng các món ăn. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa lò vi sóng để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2026-02-10",
+            "contactPhone": "13579246810",
+            "backupPhone": "13468102468",
+            "address": "Hà Nội, Quận Cầu Giấy",
+            "detailAddress": "Đường Láng Hạ",
+            "status": 1
+        },
+        "worker": {
+            "age": "34 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "7-8 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là lò vi sóng. Tôi có khả năng giải quyết mọi sự cố liên quan đến lò vi sóng."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 3,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không đủ lạnh, không thể bảo quản thực phẩm. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ lạnh để kiểm tra và khắc phục sự cố này.",
+            "age": "25-35 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-20",
+            "contactPhone": "13689753124",
+            "backupPhone": "13574123698",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "32 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "6-7 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 1,
+            "requirementName": "Sửa quạt thông gió",
+            "requirementIntro": "Quạt thông gió không quay, không thể tạo không gian mát mẻ. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa quạt thông gió để kiểm tra và khắc phục sự cố này.",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-11-15",
+            "contactPhone": "13812345678",
+            "backupPhone": "13724567890",
+            "address": "Hà Nội, Quận Thanh Xuân",
+            "detailAddress": "Đường Xuân Thủy",
+            "status": 1
+        },
+        "worker": {
+            "age": "26 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là quạt thông gió. Tôi có khả năng giải quyết mọi sự cố liên quan đến quạt thông gió."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 7,
+            "requirementName": "Sửa máy lọc không khí",
+            "requirementIntro": "Máy lọc không khí không hoạt động, không thể làm sạch không khí. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa máy lọc không khí để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13579246810",
+            "backupPhone": "13468102468",
+            "address": "Hà Nội, Quận Nam Từ Liêm",
+            "detailAddress": "Đường Võ Thị Sáu",
+            "status": 1
+        },
+        "worker": {
+            "age": "35 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "7-8 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy lọc không khí. Tôi có khả năng giải quyết mọi sự cố liên quan đến máy lọc không khí."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 9,
+            "requirementName": "Sửa bếp từ",
+            "requirementIntro": "Bếp từ không lên được, không thể nấu nướng các món ăn. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa bếp từ để kiểm tra và khắc phục sự cố này.",
+            "age": "25-35 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-11-20",
+            "contactPhone": "13812345678",
+            "backupPhone": "13724567890",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "30 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "5-6 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là bếp từ. Tôi có khả năng giải quyết mọi sự cố liên quan đến bếp từ."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 1,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không đủ lạnh, không thể bảo quản thực phẩm. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ lạnh để kiểm tra và khắc phục sự cố này.",
+            "age": "25-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13689753124",
+            "backupPhone": "13574123698",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "29 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "6-7 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 14,
+            "requirementName": "Sửa quạt trần",
+            "requirementIntro": "Quạt trần không quay, không thể thông gió cho toàn phòng. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa quạt trần để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-10",
+            "contactPhone": "13579246810",
+            "backupPhone": "13468102468",
+            "address": "Hà Nội, Quận Thanh Xuân",
+            "detailAddress": "Đường Xuân Thủy",
+            "status": 1
+        },
+        "worker": {
+            "age": "37 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "8-9 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là quạt trần. Tôi có khả năng giải quyết mọi sự cố liên quan đến quạt trần."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 10,
+            "requirementName": "Sửa máy giặt",
+            "requirementIntro": "Máy giặt không hoạt động, không thể rửa quần áo. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa máy giặt để kiểm tra và khắc phục sự cố này.",
+            "age": "25-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-10-30",
+            "contactPhone": "13812345678",
+            "backupPhone": "13724567890",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "27 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "5-6 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy giặt. Tôi có khả năng giải quyết mọi sự cố liên quan đến máy giặt."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 2,
+            "requirementName": "Sửa tủ quần áo",
+            "requirementIntro": "Tủ quần áo không mở được, không thể cất quần áo. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ quần áo để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-11-20",
+            "contactPhone": "13812345678",
+            "backupPhone": "13724567890",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "33 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "7-8 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ quần áo. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ quần áo."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 2,
+            "requirementName": "Sửa máy lọc không khí",
+            "requirementIntro": "Máy lọc không khí không hoạt động, không thể làm sạch không khí. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa máy lọc không khí để kiểm tra và khắc phục sự cố này.",
+            "age": "25-30 tuổi",
+            "sex": "Không giớiحد",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-20",
+            "contactPhone": "13689753124",
+            "backupPhone": "13574123698",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "31 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "6-7 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy lọc không khí. Tôi có khả năng giải quyết mọi sự cố liên quan đến máy lọc không khí."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 5,
+            "requirementName": "Sửa bếp từ",
+            "requirementIntro": "Bếp từ không lên được, không thể nấu các món ăn. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa bếp từ để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-15",
+            "contactPhone": "13812345678",
+            "backupPhone": "13724567890",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Xuân Thủy",
+            "status": 1
+        },
+        "worker": {
+            "age": "34 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "7-8 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là bếp từ. Tôi có khả năng giải quyết mọi sự cố liên quan đến bếp từ."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 3,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không đủ lạnh để bảo quản thực phẩm. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ lạnh để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Thạc sĩ",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13689753124",
+            "backupPhone": "13574123698",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "35 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "8-9 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa quạt thông gió",
+            "requirementIntro": "Quạt thông gió không quay, không thể tạo gió",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13812345678",
+            "backupPhone": "13723456789",
+            "address": "Hà Nội, Quận Cầu Giấy",
+            "detailAddress": "Đường Láng Hạ",
+            "status": 1
+        },
+        "worker": {
+            "age": "26 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là quạt thông gió. Tôi có khả năng giải quyết mọi sự cố liên quan đến quạt thông gió."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không làm mát, thực phẩm bị hỏng",
+            "age": "24-34 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-11-18",
+            "contactPhone": "13412345678",
+            "backupPhone": "13323456789",
+            "address": "TP. HCM, Quận Gò Vấp",
+            "detailAddress": "Đường 3 tháng 2",
+            "status": 1
+        },
+        "worker": {
+            "age": "29 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Hoàng **",
+            "intro": "Tôi là một kỹ thuật viên chuyên nghiệp trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa máy giặt",
+            "requirementIntro": "Máy giặt không quay, không thể làm sạch quần áo",
+            "age": "25-35 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-1-15",
+            "contactPhone": "13698765432",
+            "backupPhone": "13578945612",
+            "address": "Hà Nội, Quận Ba Đình",
+            "detailAddress": "Đại lộ Lương Thế Vinh",
+            "status": 1
+        },
+        "worker": {
+            "age": "30 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "5-6 năm",
+            "avatar": "",
+            "name": "Đỗ **",
+            "intro": "Tôi là một người có nhiều kinh nghiệm trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy giặt. Tôi có khả năng giải quyết tất cả các sự cố liên quan đến máy giặt."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa bếp từ",
+            "requirementIntro": "Bếp từ không lên nhiệt, không thể nấu nướng",
+            "age": "28-38 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-1-10",
+            "contactPhone": "13698765432",
+            "backupPhone": "13578945612",
+            "address": "TP. HCM, Quận Phú Nhuận",
+            "detailAddress": "Đường Nguyễn Ảnh Thụ",
+            "status": 1
+        },
+        "worker": {
+            "age": "27 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Vũ **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là bếp từ. Tôi có khả năng giải quyết mọi sự cố liên quan đến bếp từ."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa máy lọc nước",
+            "requirementIntro": "Máy lọc nước không hoạt động, không thể cung cấp nước sạch",
+            "age": "26-36 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-12",
+            "contactPhone": "13712345678",
+            "backupPhone": "13623456789",
+            "address": "TP. HCM, Quận Bình Thạnh",
+            "detailAddress": "Đường Đinh Tiên Hoàng",
+            "status": 1
+        },
+        "worker": {
+            "age": "29 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "5-6 năm",
+            "avatar": "",
+            "name": "Lâm **",
+            "intro": "Tôi là một kỹ thuật viên chuyên nghiệp trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy lọc nước. Tôi có thể giải quyết mọi sự cố liên quan đến máy lọc nước."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa quạt thông gió",
+            "requirementIntro": "Quạt thông gió không quay, không thể tạo gió",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13812345678",
+            "backupPhone": "13723456789",
+            "address": "Hà Nội, Quận Tây Hồ",
+            "detailAddress": "Đường Võ Phúc Lưu",
+            "status": 1
+        },
+        "worker": {
+            "age": "26 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Kiều **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là quạt thông gió. Tôi có khả năng giải quyết mọi sự cố liên quan đến quạt thông gió."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không làm mát hiệu quả, thực phẩm dễ bị hỏng",
+            "age": "23-33 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-11-20",
+            "contactPhone": "13543216789",
+            "backupPhone": "13456789012",
+            "address": "TP. HCM, Quận Tân Phú",
+            "detailAddress": "Đường Đồng Văn Cống",
+            "status": 1
+        },
+        "worker": {
+            "age": "28 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Nguyễn **",
+            "intro": "Tôi là một kỹ thuật viên chuyên nghiệp trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa máy giặt",
+            "requirementIntro": "Máy giặt không quay, không thể làm sạch quần áo",
+            "age": "22-32 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-1-15",
+            "contactPhone": "13698765432",
+            "backupPhone": "13578945612",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đại lộ Võ Nguyên Giáp",
+            "status": 1
+        },
+        "worker": {
+            "age": "30 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "5-6 năm",
+            "avatar": "",
+            "name": "Đặng **",
+            "intro": "Tôi là một người có nhiều kinh nghiệm trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy giặt. Tôi có khả năng giải quyết tất cả các sự cố liên quan đến máy giặt."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa bếp từ",
+            "requirementIntro": "Bếp từ không lên nhiệt, không thể nấu nướng",
+            "age": "27-37 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-1-10",
+            "contactPhone": "13698765432",
+            "backupPhone": "13578945612",
+            "address": "TP. HCM, Quận Phú Nhuận",
+            "detailAddress": "Đường Nguyễn Ảnh Thụ",
+            "status": 1
+        },
+        "worker": {
+            "age": "29 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "5-6 năm",
+            "avatar": "",
+            "name": "Hoàng **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là bếp từ. Tôi có khả năng giải quyết mọi sự cố liên quan đến bếp từ."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa máy lọc nước",
+            "requirementIntro": "Máy lọc nước không hoạt động, không thể cung cấp nước sạch",
+            "age": "24-34 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-11",
+            "contactPhone": "13712345678",
+            "backupPhone": "13623456789",
+            "address": "TP. HCM, Quận Tân Bình",
+            "detailAddress": "Đường Võ Thị Sáu",
+            "status": 1
+        },
+        "worker": {
+            "age": "28 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Phan **",
+            "intro": "Tôi là một kỹ thuật viên chuyên nghiệp trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy lọc nước. Tôi có thể giải quyết mọi sự cố liên quan đến máy lọc nước."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa quạt thông gió",
+            "requirementIntro": "Quạt thông gió không quay, không thể tạo gió",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13812345678",
+            "backupPhone": "13723456789",
+            "address": "Hà Nội, Quận Cầu Giấy",
+            "detailAddress": "Đường Láng Hạ",
+            "status": 1
+        },
+        "worker": {
+            "age": "26 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là quạt thông gió. Tôi có khả năng giải quyết mọi sự cố liên quan đến quạt thông gió."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType2": 3,
+            "requirementName": "Làm sạch toàn bộ gia đình",
+            "requirementIntro": "Vì đã lâu không làm vệ sinh kỹ lưỡng, các góc trong nhà đã tích tụ nhiều bụi bẩn, cần một dịch vụ làm sạch toàn diện.",
+            "age": "25-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không yêu cầu",
+            "experience": "1-3 năm",
+            "stopTime": "2025-6-30",
+            "contactPhone": "0987654321",
+            "backupPhone": "0989876543",
+            "address": "Quận 1, Thành phố Hồ Chí Minh",
+            "detailAddress": "Đường Nguyễn Đình Chiểu 123",
+            "status": 1
+        },
+        "worker": {
+            "age": "27 tuổi",
+            "sex": "Nữ",
+            "education": " trung học phổ thông",
+            "experience": "3-5 năm",
+            "avatar": "",
+            "name": " Nguyễn **",
+            "intro": "Tôi là một người chuyên làm việc làm sạch gia đình, có kinh nghiệm trên 3 năm. Tốt nghiệp các công việc từ lau dọn đến quét dọn, sử dụng hiệu quả các dụng cụ và sản phẩm làm sạch, đảm bảo môi trường sống của bạn luôn sạch sẽ."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType2": 3,
+            "requirementName": "Vệ sinh phòng khách",
+            "requirementIntro": "Phòng khách đã bị bụi bám và bẩn sau một thời gian dài, cần được làm sạch chuyên nghiệp để tạo không gian thoải mái cho khách đến thăm.",
+            "age": "25-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không yêu cầu",
+            "experience": "1-3 năm",
+            "stopTime": "2025-7-15",
+            "contactPhone": "0987654321",
+            "backupPhone": "0989876543",
+            "address": "Quận 3, Thành phố Hồ Chí Minh",
+            "detailAddress": "Đường Vo Văn Kiệt 456",
+            "status": 1
+        },
+        "worker": {
+            "age": "30 tuổi",
+            "sex": "Nữ",
+            "education": " trung học phổ thông",
+            "experience": "4-6 năm",
+            "avatar": "",
+            "name": " Phạm **",
+            "intro": "Tôi là một nhân viên vệ sinh có nhiều kinh nghiệm trong việc làm sạch phòng khách. Sử dụng các dụng cụ và sản phẩm làm sạch chuyên dụng để đảm bảo phòng khách của bạn luôn sạch sẽ và thơm mát."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType2": 3,
+            "requirementName": "Vệ sinh nhà bếp",
+            "requirementIntro": "Nhà bếp là nơi thường xuyên bị bẩn bởi dầu mỡ và các vết bẩn khác, cần một dịch vụ vệ sinh chuyên nghiệp để làm sạch triệt để.",
+            "age": "25-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không yêu cầu",
+            "experience": "1-3 năm",
+            "stopTime": "2025-8-15",
+            "contactPhone": "0987654321",
+            "backupPhone": "0989876543",
+            "address": "Quận 7, Thành phố Hồ Chí Minh",
+            "detailAddress": "Đường Phạm Ngũ Lão 789",
+            "status": 1
+        },
+        "worker": {
+            "age": "29 tuổi",
+            "sex": "Nữ",
+            "education": " trung học phổ thông",
+            "experience": "5-7 năm",
+            "avatar": "",
+            "name": " Hoàng **",
+            "intro": "Tôi là một chuyên gia trong việc làm sạch nhà bếp, có trên 5 năm kinh nghiệm. Sử dụng các dụng cụ và sản phẩm đặc hiệu để loại bỏ hoàn toàn các vết bẩn và dầu mỡ khó nhổ."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType2": 3,
+            "requirementName": "Vệ sinh phòng tắm",
+            "requirementIntro": "Phòng tắm là nơi dễ dàng tích tụ vi khuẩn và các vết bẩn, cần được làm sạch chuyên nghiệp để đảm bảo sức khỏe gia đình.",
+            "age": "25-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không yêu cầu",
+            "experience": "1-3 năm",
+            "stopTime": "2025-9-15",
+            "contactPhone": "0987654321",
+            "backupPhone": "0989876543",
+            "address": "Quận 10, Thành phố Hồ Chí Minh",
+            "detailAddress": "Đường Lý Thường Kiệt 101",
+            "status": 1
+        },
+        "worker": {
+            "age": "28 tuổi",
+            "sex": "Nữ",
+            "education": " trung học phổ thông",
+            "experience": "6-8 năm",
+            "avatar": "",
+            "name": " Lê **",
+            "intro": "Tôi là một người am hiểu sâu về việc làm sạch phòng tắm, có trên 6 năm kinh nghiệm. Sử dụng các dụng cụ và sản phẩm diệt khuẩn để đảm bảo phòng tắm của bạn luôn sạch sẽ và an toàn."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType2": 3,
+            "requirementName": "Vệ sinh phòng ngủ",
+            "requirementIntro": "Phòng ngủ là nơi cần sự thoải mái và sạch sẽ để mang lại giấc ngủ ngon lành, cần được làm sạch chuyên nghiệp.",
+            "age": "25-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không yêu cầu",
+            "experience": "1-3 năm",
+            "stopTime": "2025-10-15",
+            "contactPhone": "0987654321",
+            "backupPhone": "0989876543",
+            "address": "Quận 12, Thành phố Hồ Chí Minh",
+            "detailAddress": "Đường Võ Thị Sáu 202",
+            "status": 1
+        },
+        "worker": {
+            "age": "32 tuổi",
+            "sex": "Nữ",
+            "education": " trung học phổ thông",
+            "experience": "7-9 năm",
+            "avatar": "",
+            "name": " Đỗ **",
+            "intro": "Tôi là một chuyên gia trong việc làm sạch phòng ngủ, có trên 7 năm kinh nghiệm. Sử dụng các dụng cụ và sản phẩm an toàn để đảm bảo phòng ngủ của bạn luôn thoáng mát và sạch sẽ."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType2": 3,
+            "requirementName": "Vệ sinh sân phơi",
+            "requirementIntro": "Sân phơi là nơi thường xuyên bị bụi bặm và nấm mốc, cần được làm sạch chuyên nghiệp để đảm bảo an toàn cho gia đình.",
+            "age": "25-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không yêu cầu",
+            "experience": "1-3 năm",
+            "stopTime": "2025-11-15",
+            "contactPhone": "0987654321",
+            "backupPhone": "0989876543",
+            "address": "Quận 4, Thành phố Hồ Chí Minh",
+            "detailAddress": "Đường Võ Văn Tần 304",
+            "status": 1
+        },
+        "worker": {
+            "age": "31 tuổi",
+            "sex": "Nữ",
+            "education": " trung học phổ thông",
+            "experience": "5-7 năm",
+            "avatar": "",
+            "name": " Nguyễn **",
+            "intro": "Tôi là một người có nhiều kinh nghiệm trong việc làm sạch sân phơi, có trên 5 năm kinh nghiệm. Sử dụng các dụng cụ và sản phẩm diệt nấm mốc để đảm bảo sân phơi của bạn luôn sạch sẽ và an toàn."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType2": 3,
+            "requirementName": "Vệ sinh balconies",
+            "requirementIntro": "Các ban công thường bị bụi bặm và nấm mốc, cần được làm sạch chuyên nghiệp để đảm bảo an toàn và thẩm mỹ cho ngôi nhà.",
+            "age": "25-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không yêu cầu",
+            "experience": "1-3 năm",
+            "stopTime": "2025-12-15",
+            "contactPhone": "0987654321",
+            "backupPhone": "0989876543",
+            "address": "Quận 5, Thành phố Hồ Chí Minh",
+            "detailAddress": "Đường Trần Hưng Đạo 507",
+            "status": 1
+        },
+        "worker": {
+            "age": "27 tuổi",
+            "sex": "Nữ",
+            "education": " trung học phổ thông",
+            "experience": "4-6 năm",
+            "avatar": "",
+            "name": " Lương **",
+            "intro": "Tôi là một chuyên gia trong việc làm sạch ban công, có trên 4 năm kinh nghiệm. Sử dụng các dụng cụ và sản phẩm diệt nấm mốc chuyên dụng để đảm bảo ban công của bạn luôn sạch sẽ và an toàn."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType2": 3,
+            "requirementName": "Vệ sinh phòng khách lớn",
+            "requirementIntro": "Phòng khách lớn thường là nơi tiếp khách, cần được làm sạch chuyên nghiệp để mang lại thiện cảm với khách đến thăm.",
+            "age": "25-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không yêu cầu",
+            "experience": "1-3 năm",
+            "stopTime": "2026-1-15",
+            "contactPhone": "0987654321",
+            "backupPhone": "0989876543",
+            "address": "Quận 6, Thành phố Hồ Chí Minh",
+            "detailAddress": "Đường Võ Thị Sáu 608",
+            "status": 1
+        },
+        "worker": {
+            "age": "30 tuổi",
+            "sex": "Nữ",
+            "education": " trung học phổ thông",
+            "experience": "8-10 năm",
+            "avatar": "",
+            "name": " Đào **",
+            "intro": "Tôi là một chuyên gia trong việc làm sạch phòng khách lớn, có trên 8 năm kinh nghiệm. Sử dụng các dụng cụ và sản phẩm chuyên dụng để đảm bảo phòng khách lớn của bạn luôn sạch sẽ và chuyên nghiệp."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không hoạt động, không thể làm mát",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13812345678",
+            "backupPhone": "13723456789",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Cao Thắng",
+            "status": 1
+        },
+        "worker": {
+            "age": "27 tuổi",
+            "sex": "Nữ",
+            "education": "Cao đẳng",
+            "experience": "3-5 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa máy giặt",
+            "requirementIntro": "Máy giặt không hoạt động, không thể giặt quần áo",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13812345678",
+            "backupPhone": "13723456789",
+            "address": "Hà Nội, Quận Ba Đình",
+            "detailAddress": "Đường Hàng Bài",
+            "status": 1
+        },
+        "worker": {
+            "age": "28 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy giặt. Tôi có khả năng giải quyết mọi sự cố liên quan đến máy giặt."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa lò vi sóng",
+            "requirementIntro": "Lò vi sóng không hoạt động, không thể nướng nướng",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13812345678",
+            "backupPhone": "13723456789",
+            "address": "Hà Nội, Quận Cầu Giấy",
+            "detailAddress": "Đường Láng Hạ",
+            "status": 1
+        },
+        "worker": {
+            "age": "26 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là lò vi sóng. Tôi có khả năng giải quyết mọi sự cố liên quan đến lò vi sóng."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa tivi",
+            "requirementIntro": "Tivi không lên nguồn, hình ảnh không hiển thị",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13812345678",
+            "backupPhone": "13723456789",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Cao Thắng",
+            "status": 1
+        },
+        "worker": {
+            "age": "27 tuổi",
+            "sex": "Nữ",
+            "education": "Cao đẳng",
+            "experience": "3-5 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tivi. Tôi có khả năng giải quyết mọi sự cố liên quan đến tivi."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa quạt thông gió",
+            "requirementIntro": "Quạt thông gió không quay, không thể tạo gió",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13812345678",
+            "backupPhone": "13723456789",
+            "address": "Hà Nội, Quận Cầu Giấy",
+            "detailAddress": "Đường Láng Hạ",
+            "status": 1
+        },
+        "worker": {
+            "age": "26 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là quạt thông gió. Tôi có khả năng giải quyết mọi sự cố liên quan đến quạt thông gió."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không hoạt động, không thể làm mát",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13812345678",
+            "backupPhone": "13723456789",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Cao Thắng",
+            "status": 1
+        },
+        "worker": {
+            "age": "27 tuổi",
+            "sex": "Nữ",
+            "education": "Cao đẳng",
+            "experience": "3-5 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa máy giặt",
+            "requirementIntro": "Máy giặt không hoạt động, không thể giặt quần áo",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13812345678",
+            "backupPhone": "13723456789",
+            "address": "Hà Nội, Quận Ba Đình",
+            "detailAddress": "Đường Hàng Bài",
+            "status": 1
+        },
+        "worker": {
+            "age": "28 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy giặt. Tôi có khả năng giải quyết mọi sự cố liên quan đến máy giặt."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa lò vi sóng",
+            "requirementIntro": "Lò vi sóng không hoạt động, không thể nướng nướng",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13812345678",
+            "backupPhone": "13723456789",
+            "address": "Hà Nội, Quận Cầu Giấy",
+            "detailAddress": "Đường Láng Hạ",
+            "status": 1
+        },
+        "worker": {
+            "age": "26 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là lò vi sóng. Tôi có khả năng giải quyết mọi sự cố liên quan đến lò vi sóng."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa tivi",
+            "requirementIntro": "Tivi không lên nguồn, hình ảnh không hiển thị",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13812345678",
+            "backupPhone": "13723456789",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Cao Thắng",
+            "status": 1
+        },
+        "worker": {
+            "age": "27 tuổi",
+            "sex": "Nữ",
+            "education": "Cao đẳng",
+            "experience": "3-5 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tivi. Tôi có khả năng giải quyết mọi sự cố liên quan đến tivi."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa quạt thông gió",
+            "requirementIntro": "Quạt thông gió không quay, không thể tạo gió",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13812345678",
+            "backupPhone": "13723456789",
+            "address": "Hà Nội, Quận Cầu Giấy",
+            "detailAddress": "Đường Láng Hạ",
+            "status": 1
+        },
+        "worker": {
+            "age": "26 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là quạt thông gió. Tôi có khả năng giải quyết mọi sự cố liên quan đến quạt thông gió."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không hoạt động, không thể làm mát",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13812345678",
+            "backupPhone": "13723456789",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Cao Thắng",
+            "status": 1
+        },
+        "worker": {
+            "age": "27 tuổi",
+            "sex": "Nữ",
+            "education": "Cao đẳng",
+            "experience": "3-5 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa máy giặt",
+            "requirementIntro": "Máy giặt không hoạt động, không thể giặt quần áo",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13812345678",
+            "backupPhone": "13723456789",
+            "address": "Hà Nội, Quận Ba Đình",
+            "detailAddress": "Đường Hàng Bài",
+            "status": 1
+        },
+        "worker": {
+            "age": "28 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy giặt. Tôi có khả năng giải quyết mọi sự cố liên quan đến máy giặt."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa lò vi sóng",
+            "requirementIntro": "Lò vi sóng không hoạt động, không thể nướng nướng",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13812345678",
+            "backupPhone": "13723456789",
+            "address": "Hà Nội, Quận Cầu Giấy",
+            "detailAddress": "Đường Láng Hạ",
+            "status": 1
+        },
+        "worker": {
+            "age": "26 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là lò vi sóng. Tôi có khả năng giải quyết mọi sự cố liên quan đến lò vi sóng."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa tivi",
+            "requirementIntro": "Tivi không lên nguồn, hình ảnh không hiển thị",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13812345678",
+            "backupPhone": "13723456789",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Cao Thắng",
+            "status": 1
+        },
+        "worker": {
+            "age": "27 tuổi",
+            "sex": "Nữ",
+            "education": "Cao đẳng",
+            "experience": "3-5 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tivi. Tôi có khả năng giải quyết mọi sự cố liên quan đến tivi."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 3,
+            "requirementName": "Sửa quạt thông gió",
+            "requirementIntro": "Quạt thông gió không quay, không thể tạo gió",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13812345678",
+            "backupPhone": "13723456789",
+            "address": "Hà Nội, Quận Cầu Giấy",
+            "detailAddress": "Đường Láng Hạ",
+            "status": 1
+        },
+        "worker": {
+            "age": "26 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là quạt thông gió. Tôi có khả năng giải quyết mọi sự cố liên quan đến quạt thông gió."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType2": 3,
+            "requirementName": "Vệ sinh phòng ăn lớn",
+            "requirementIntro": "Phòng ăn lớn là nơi tập trung nhiều người, cần được làm sạch chuyên nghiệp để đảm bảo sức khỏe cho tất cả người dùng.",
+            "age": "25-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không yêu cầu",
+            "experience": "1-3 năm",
+            "stopTime": "2026-2-15",
+            "contactPhone": "0987654321",
+            "backupPhone": "0989876543",
+            "address": "Quận 11, Thành phố Hồ Chí Minh",
+            "detailAddress": "Đường Hàm Nghi 709",
+            "status": 1
+        },
+        "worker": {
+            "age": "33 tuổi",
+            "sex": "Nữ",
+            "education": " trung học phổ thông",
+            "experience": "9-11 năm",
+            "avatar": "",
+            "name": " Phạm **",
+            "intro": "Tôi là một chuyên gia trong việc làm sạch phòng ăn lớn, có trên 9 năm kinh nghiệm. Sử dụng các dụng cụ và sản phẩm diệt khuẩn chuyên dụng để đảm bảo phòng ăn lớn của bạn luôn sạch sẽ và an toàn."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType2": 3,
+            "requirementName": "Vệ sinh phòng làm việc lớn",
+            "requirementIntro": "Phòng làm việc lớn thường là nơi tập trung nhiều giấy tờ và đồ đạc, cần được làm sạch chuyên nghiệp để đảm bảo hiệu quả công việc.",
+            "age": "25-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không yêu cầu",
+            "experience": "1-3 năm",
+            "stopTime": "2026-3-15",
+            "contactPhone": "0987654321",
+            "backupPhone": "0989876543",
+            "address": "Quận 14, Thành phố Hồ Chí Minh",
+            "detailAddress": "Đường Võ Thị Sáu 810",
+            "status": 1
+        },
+        "worker": {
+            "age": "28 tuổi",
+            "sex": "Nữ",
+            "education": " trung học phổ thông",
+            "experience": "6-8 năm",
+            "avatar": "",
+            "name": " Vũ **",
+            "intro": "Tôi là một chuyên gia trong việc làm sạch phòng làm việc lớn, có trên 6 năm kinh nghiệm. Sử dụng các dụng cụ và sản phẩm diệt khuẩn chuyên dụng để đảm bảo phòng làm việc lớn của bạn luôn sạch sẽ và an toàn."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType2": 3,
+            "requirementName": "Vệ sinh phòng bếp lớn",
+            "requirementIntro": "Phòng bếp lớn thường là nơi nấu nướng, cần được làm sạch chuyên nghiệp để đảm bảo an toàn vệ sinh cho người nấu nướng và thực phẩm.",
+            "age": "25-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không yêu cầu",
+            "experience": "1-3 năm",
+            "stopTime": "2026-4-15",
+            "contactPhone": "0987654321",
+            "backupPhone": "0989876543",
+            "address": "Quận 8, Thành phố Hồ Chí Minh",
+            "detailAddress": "Đường Võ Văn Kiệt 1011",
+            "status": 1
+        },
+        "worker": {
+            "age": "35 tuổi",
+            "sex": "Nữ",
+            "education": " trung học phổ thông",
+            "experience": "11-13 năm",
+            "avatar": "",
+            "name": " Nguyễn **",
+            "intro": "Tôi là một chuyên gia trong việc làm sạch phòng bếp lớn, có trên 11 năm kinh nghiệm. Sử dụng các dụng cụ và sản phẩm diệt khuẩn chuyên dụng để đảm bảo phòng bếp lớn của bạn luôn sạch sẽ và an toàn."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType2": 3,
+            "requirementName": "Vệ sinh phòng tắm lớn",
+            "requirementIntro": "Phòng tắm lớn thường là nơi tập trung nhiều vi khuẩn, cần được làm sạch chuyên nghiệp để đảm bảo an toàn vệ sinh cho người sử dụng.",
+            "age": "25-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không yêu cầu",
+            "experience": "1-3 năm",
+            "stopTime": "2026-5-15",
+            "contactPhone": "0987654321",
+            "backupPhone": "0989876543",
+            "address": "Quận 1, Thành phố Hồ Chí Minh",
+            "detailAddress": "Đường Võ Thị Sáu 1202",
+            "status": 1
+        },
+        "worker": {
+            "age": "36 tuổi",
+            "sex": "Nữ",
+            "education": " trung học phổ thông",
+            "experience": "14-16 năm",
+            "avatar": "",
+            "name": " Đặng **",
+            "intro": "Tôi là một chuyên gia trong việc làm sạch phòng tắm lớn, có trên 14 năm kinh nghiệm. Sử dụng các dụng cụ và sản phẩm diệt khuẩn chuyên dụng để đảm bảo phòng tâm lớn của bạn luôn sạch sẽ và an toàn."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType2": 3,
+            "requirementName": "Vệ sinh phòng wc lớn",
+            "requirementIntro": "Phòng wc lớn thường là nơi tập trung nhiều vi khuẩn, cần được làm sạch chuyên nghiệp để đảm bảo an toàn vệ sinh cho người sử dụng.",
+            "age": "25-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không yêu cầu",
+            "experience": "1-3 năm",
+            "stopTime": "2026-6-15",
+            "contactPhone": "0987654321",
+            "backupPhone": "0989876543",
+            "address": "Quận 3, Thành phố Hồ Chí Minh",
+            "detailAddress": "Đường Võ Thị Sáu 1402",
+            "status": 1
+        },
+        "worker": {
+            "age": "37 tuổi",
+            "sex": "Nữ",
+            "education": " trung học phổ thông",
+            "experience": "17-19 năm",
+            "avatar": "",
+            "name": " Đoàn **",
+            "intro": "Tôi là một chuyên gia trong việc làm sạch phòng wc lớn, có trên 17 năm kinh nghiệm. Sử dụng các dụng cụ và sản phẩm diệt khuẩn chuyên dụng để đảm bảo phòng wc lớn của bạn luôn sạch sẽ và an toàn."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType2": 3,
+            "requirementName": "Vệ sinh phòng khách lớn tại khách sạn Azerai Hotel",
+            "requirementIntro": "Phòng khách lớn tại khách sạn Azerai Hotel thường là nơi tiếp khách, cần được làm sạch chuyên nghiệp để mang lại thiện cảm cho khách hàng.",
+            "age": "25-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không yêu cầu",
+            "experience": "1-3 năm",
+            "stopTime": "2027-1-15",
+            "contactPhone": "0987654321",
+            "backupPhone": "0989876543",
+            "address": "Quận 7, Thành phố Hồ Chí Minh",
+            "detailAddress": "Đường Nam Kỳ Khởi Nghĩa 707A",
+            "status": 1
+        },
+        "worker": {
+            "age": "34 tuổi",
+            "sex": "Nữ",
+            "education": " trung học phổ thông",
+            "experience": "10-12 năm",
+            "avatar": "",
+            "name": " Nguyễn **",
+            "intro": "Tôi là một chuyên gia trong việc làm sạch phòng khách lớn tại khách sạn Azerai Hotel, có trên 10 năm kinh nghiệm. Sử dụng các dụng cụ và sản phẩm diệt khuẩn chuyên dụng để đảm bảo phòng khách lớn tại khách sạn Azerai Hotel của bạn luôn sạch sẽ và an toàn."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 4,
+            "requirementName": "Sửa bếp từ",
+            "requirementIntro": "Bếp từ không lên lửa, không thể nấu nướng các món ăn. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa bếp từ để kiểm tra và khắc phục sự cố này.",
+            "age": "25-35 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2026-01-15",
+            "contactPhone": "13579246810",
+            "backupPhone": "13468102468",
+            "address": "Hà Nội, Quận Bắc Từ Liêm",
+            "detailAddress": "Đường Xuân Thủy",
+            "status": 1
+        },
+        "worker": {
+            "age": "30 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "7-8 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là bếp từ. Tôi có khả năng giải quyết mọi sự cố liên quan đến bếp từ."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 11,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không đủ lạnh, không thể bảo quản thực phẩm. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ lạnh để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-20",
+            "contactPhone": "13689753124",
+            "backupPhone": "13574123698",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "33 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "6-7 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 2,
+            "requirementName": "Sửa tủ quần áo",
+            "requirementIntro": "Tủ quần áo không hoạt động, không thể sấy khô quần áo. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ quần áo để kiểm tra và khắc phục sự cố này.",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-10-30",
+            "contactPhone": "13792468105",
+            "backupPhone": "13681052469",
+            "address": "Hà Nội, Quận Hoàng Mai",
+            "detailAddress": "Đường Kim Mã",
+            "status": 1
+        },
+        "worker": {
+            "age": "28 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "5-6 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ quần áo. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ quần áo."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 8,
+            "requirementName": "Sửa máy giặt",
+            "requirementIntro": "Máy giặt không hoạt động, không thể rửa quần áo. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa máy giặt để kiểm tra và khắc phục sự cố này.",
+            "age": "25-35 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-11-25",
+            "contactPhone": "13579246810",
+            "backupPhone": "13468102468",
+            "address": "Hà Nội, Quận Đống Đa",
+            "detailAddress": "Đường Võ Nguyên Giáp",
+            "status": 1
+        },
+        "worker": {
+            "age": "31 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "6-7 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy giặt. Tôi có khả năng giải quyết mọi sự cố liên quan đến máy giặt."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 6,
+            "requirementName": "Sửa lò vi sóng",
+            "requirementIntro": "Lò vi sóng không hoạt động, không thể nấu nướng các món ăn. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa lò vi sóng để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2026-02-10",
+            "contactPhone": "13579246810",
+            "backupPhone": "13468102468",
+            "address": "Hà Nội, Quận Cầu Giấy",
+            "detailAddress": "Đường Láng Hạ",
+            "status": 1
+        },
+        "worker": {
+            "age": "34 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "7-8 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là lò vi sóng. Tôi có khả năng giải quyết mọi sự cố liên quan đến lò vi sóng."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 3,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không đủ lạnh, không thể bảo quản thực phẩm. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ lạnh để kiểm tra và khắc phục sự cố này.",
+            "age": "25-35 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-20",
+            "contactPhone": "13689753124",
+            "backupPhone": "13574123698",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "32 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "6-7 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 1,
+            "requirementName": "Sửa quạt thông gió",
+            "requirementIntro": "Quạt thông gió không quay, không thể tạo không gian mát mẻ. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa quạt thông gió để kiểm tra và khắc phục sự cố này.",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-11-15",
+            "contactPhone": "13812345678",
+            "backupPhone": "13724567890",
+            "address": "Hà Nội, Quận Thanh Xuân",
+            "detailAddress": "Đường Xuân Thủy",
+            "status": 1
+        },
+        "worker": {
+            "age": "26 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là quạt thông gió. Tôi có khả năng giải quyết mọi sự cố liên quan đến quạt thông gió."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 7,
+            "requirementName": "Sửa máy lọc không khí",
+            "requirementIntro": "Máy lọc không khí không hoạt động, không thể làm sạch không khí. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa máy lọc không khí để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13579246810",
+            "backupPhone": "13468102468",
+            "address": "Hà Nội, Quận Nam Từ Liêm",
+            "detailAddress": "Đường Võ Thị Sáu",
+            "status": 1
+        },
+        "worker": {
+            "age": "35 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "7-8 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy lọc không khí. Tôi có khả năng giải quyết mọi sự cố liên quan đến máy lọc không khí."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 9,
+            "requirementName": "Sửa bếp từ",
+            "requirementIntro": "Bếp từ không lên được, không thể nấu nướng các món ăn. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa bếp từ để kiểm tra và khắc phục sự cố này.",
+            "age": "25-35 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-11-20",
+            "contactPhone": "13812345678",
+            "backupPhone": "13724567890",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "30 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "5-6 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là bếp từ. Tôi có khả năng giải quyết mọi sự cố liên quan đến bếp từ."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 1,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không đủ lạnh để bảo quản thực phẩm. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ lạnh để kiểm tra và khắc phục sự cố này.",
+            "age": "25-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13689753124",
+            "backupPhone": "13574123698",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "29 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "6-7 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 14,
+            "requirementName": "Sửa quạt trần",
+            "requirementIntro": "Quạt trần không quay, không thể thông gió cho toàn phòng. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa quạt trần để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-10",
+            "contactPhone": "13579246810",
+            "backupPhone": "13468102468",
+            "address": "Hà Nội, Quận Thanh Xuân",
+            "detailAddress": "Đường Xuân Thủy",
+            "status": 1
+        },
+        "worker": {
+            "age": "37 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "8-9 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là quạt trần. Tôi có khả năng giải quyết mọi sự cố liên quan đến quạt trần."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 10,
+            "requirementName": "Sửa máy giặt",
+            "requirementIntro": "Máy giặt không hoạt động, không thể rửa quần áo. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa máy giặt để kiểm tra và khắc phục sự cố này.",
+            "age": "25-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-10-30",
+            "contactPhone": "13812345678",
+            "backupPhone": "13724567890",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "27 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "5-6 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy giặt. Tôi có khả năng giải quyết mọi sự cố liên quan đến máy giặt."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 2,
+            "requirementName": "Sửa tủ quần áo",
+            "requirementIntro": "Tủ quần áo không mở được, không thể cất quần áo. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ quần áo để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-11-20",
+            "contactPhone": "13812345678",
+            "backupPhone": "13724567890",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "33 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "7-8 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ quần áo. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ quần áo."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 2,
+            "requirementName": "Sửa máy lọc không khí",
+            "requirementIntro": "Máy lọc không khí không hoạt động, không thể làm sạch không khí. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa máy lọc không khí để kiểm tra và khắc phục sự cố này.",
+            "age": "25-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-20",
+            "contactPhone": "13689753124",
+            "backupPhone": "13574123698",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "31 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "6-7 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy lọc không khí. Tôi có khả năng giải quyết mọi sự cố liên quan đến máy lọc không khí."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 5,
+            "requirementName": "Sửa bếp từ",
+            "requirementIntro": "Bếp từ không lên được, không thể nấu các món ăn. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa bếp từ để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-15",
+            "contactPhone": "13812345678",
+            "backupPhone": "13724567890",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Xuân Thủy",
+            "status": 1
+        },
+        "worker": {
+            "age": "34 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "7-8 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là bếp từ. Tôi có khả năng giải quyết mọi sự cố liên quan đến bếp từ."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 3,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không đủ lạnh để bảo quản thực phẩm. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ lạnh để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13689753124",
+            "backupPhone": "13574123698",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "35 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "8-9 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 4,
+            "requirementName": "Sửa bếp từ",
+            "requirementIntro": "Bếp từ không lên lửa, không thể nấu nướng các món ăn. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa bếp từ để kiểm tra và khắc phục sự cố này.",
+            "age": "25-35 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2026-01-15",
+            "contactPhone": "13579246810",
+            "backupPhone": "13468102468",
+            "address": "Hà Nội, Quận Bắc Từ Liêm",
+            "detailAddress": "Đường Xuân Thủy",
+            "status": 1
+        },
+        "worker": {
+            "age": "30 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "7-8 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là bếp từ. Tôi có khả năng giải quyết mọi sự cố liên quan đến bếp từ."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 11,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không đủ lạnh, không thể bảo quản thực phẩm. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ lạnh để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-20",
+            "contactPhone": "13689753124",
+            "backupPhone": "13574123698",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "33 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "6-7 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 2,
+            "requirementName": "Sửa tủ quần áo",
+            "requirementIntro": "Tủ quần áo không hoạt động, không thể sấy khô quần áo. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ quần áo để kiểm tra và khắc phục sự cố này.",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-10-30",
+            "contactPhone": "13792468105",
+            "backupPhone": "13681052469",
+            "address": "Hà Nội, Quận Hoàng Mai",
+            "detailAddress": "Đường Kim Mã",
+            "status": 1
+        },
+        "worker": {
+            "age": "28 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "5-6 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ quần áo. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ quần áo."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 8,
+            "requirementName": "Sửa máy giặt",
+            "requirementIntro": "Máy giặt không hoạt động, không thể rửa quần áo. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa máy giặt để kiểm tra và khắc phục sự cố này.",
+            "age": "25-35 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-11-25",
+            "contactPhone": "13579246810",
+            "backupPhone": "13468102468",
+            "address": "Hà Nội, Quận Đống Đa",
+            "detailAddress": "Đường Võ Nguyên Giáp",
+            "status": 1
+        },
+        "worker": {
+            "age": "31 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "6-7 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy giặt. Tôi có khả năng giải quyết mọi sự cố liên quan đến máy giặt."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 6,
+            "requirementName": "Sửa lò vi sóng",
+            "requirementIntro": "Lò vi sóng không hoạt động, không thể nấu nướng các món ăn. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa lò vi sóng để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2026-02-10",
+            "contactPhone": "13579246810",
+            "backupPhone": "13468102468",
+            "address": "Hà Nội, Quận Cầu Giấy",
+            "detailAddress": "Đường Láng Hạ",
+            "status": 1
+        },
+        "worker": {
+            "age": "34 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "7-8 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là lò vi sóng. Tôi có khả năng giải quyết mọi sự cố liên quan đến lò vi sóng."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 3,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không đủ lạnh, không thể bảo quản thực phẩm. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ lạnh để kiểm tra và khắc phục sự cố này.",
+            "age": "25-35 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-20",
+            "contactPhone": "13689753124",
+            "backupPhone": "13574123698",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "32 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "6-7 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 1,
+            "requirementName": "Sửa quạt thông gió",
+            "requirementIntro": "Quạt thông gió không quay, không thể tạo không gian mát mẻ. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa quạt thông gió để kiểm tra và khắc phục sự cố này.",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-11-15",
+            "contactPhone": "13812345678",
+            "backupPhone": "13724567890",
+            "address": "Hà Nội, Quận Thanh Xuân",
+            "detailAddress": "Đường Xuân Thủy",
+            "status": 1
+        },
+        "worker": {
+            "age": "26 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là quạt thông gió. Tôi có khả năng giải quyết mọi sự cố liên quan đến quạt thông gió."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 7,
+            "requirementName": "Sửa máy lọc không khí",
+            "requirementIntro": "Máy lọc không khí không hoạt động, không thể làm sạch không khí. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa máy lọc không khí để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13579246810",
+            "backupPhone": "13468102468",
+            "address": "Hà Nội, Quận Nam Từ Liêm",
+            "detailAddress": "Đường Võ Thị Sáu",
+            "status": 1
+        },
+        "worker": {
+            "age": "35 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "7-8 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy lọc không khí. Tôi có khả năng giải quyết mọi sự cố liên quan đến máy lọc không khí."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 9,
+            "requirementName": "Sửa bếp từ",
+            "requirementIntro": "Bếp từ không lên được, không thể nấu nướng các món ăn. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa bếp từ để kiểm tra và khắc phục sự cố này.",
+            "age": "25-35 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-11-20",
+            "contactPhone": "13812345678",
+            "backupPhone": "13724567890",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "30 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "5-6 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là bếp từ. Tôi có khả năng giải quyết mọi sự cố liên quan đến bếp từ."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 1,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không đủ lạnh để bảo quản thực phẩm. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ lạnh để kiểm tra và khắc phục sự cố này.",
+            "age": "25-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13689753124",
+            "backupPhone": "13574123698",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "29 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "6-7 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 14,
+            "requirementName": "Sửa quạt trần",
+            "requirementIntro": "Quạt trần không quay, không thể thông gió cho toàn phòng. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa quạt trần để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-10",
+            "contactPhone": "13579246810",
+            "backupPhone": "13468102468",
+            "address": "Hà Nội, Quận Thanh Xuân",
+            "detailAddress": "Đường Xuân Thủy",
+            "status": 1
+        },
+        "worker": {
+            "age": "37 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "8-9 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là quạt trần. Tôi có khả năng giải quyết mọi sự cố liên quan đến quạt trần."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 10,
+            "requirementName": "Sửa máy giặt",
+            "requirementIntro": "Máy giặt không hoạt động, không thể rửa quần áo. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa máy giặt để kiểm tra và khắc phục sự cố này.",
+            "age": "25-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-10-30",
+            "contactPhone": "13812345678",
+            "backupPhone": "13724567890",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "27 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "5-6 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy giặt. Tôi có khả năng giải quyết mọi sự cố liên quan đến máy giặt."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 2,
+            "requirementName": "Sửa tủ quần áo",
+            "requirementIntro": "Tủ quần áo không mở được, không thể cất quần áo. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ quần áo để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-11-20",
+            "contactPhone": "13812345678",
+            "backupPhone": "13724567890",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "33 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "7-8 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ quần áo. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ quần áo."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 2,
+            "requirementName": "Sửa máy lọc không khí",
+            "requirementIntro": "Máy lọc không khí không hoạt động, không thể làm sạch không khí. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa máy lọc không khí để kiểm tra và khắc phục sự cố này.",
+            "age": "25-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-20",
+            "contactPhone": "13689753124",
+            "backupPhone": "13574123698",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "31 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "6-7 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy lọc không khí. Tôi có khả năng giải quyết mọi sự cố liên quan đến máy lọc không khí."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 5,
+            "requirementName": "Sửa bếp từ",
+            "requirementIntro": "Bếp từ không lên được, không thể nấu các món ăn. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa bếp từ để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-15",
+            "contactPhone": "13812345678",
+            "backupPhone": "13724567890",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Xuân Thủy",
+            "status": 1
+        },
+        "worker": {
+            "age": "34 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "7-8 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là bếp từ. Tôi có khả năng giải quyết mọi sự cố liên quan đến bếp từ."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 3,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không đủ lạnh để bảo quản thực phẩm. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ lạnh để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13689753124",
+            "backupPhone": "13574123698",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "35 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "8-9 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType2": 3,
+            "requirementName": "Vệ sinh phòng khách lớn tại khách sạn Pullman Hotel Saigon Center",
+            "requirementIntro": "Phòng khách lớn tại khách sạn Pullman Hotel Saigon Center thường là nơi tiếp khách, cần được làm sạch chuyên nghiệp để mang lại thiện cảm cho khách hàng.",
+            "age": "25-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không yêu cầu",
+            "experience": "1-3 năm",
+            "stopTime": "2027-2-15",
+            "contactPhone": "0987654321",
+            "backupPhone": "0989876543",
+            "address": "Quận 1, Thành phố Hồ Chí Minh",
+            "detailAddress": "Đường Nam Kỳ Khởi Nghĩa 707B",
+            "status": 1
+        },
+        "worker": {
+            "age": "33 tuổi",
+            "sex": "Nữ",
+            "education": " trung học phổ thông",
+            "experience": "7-9 năm",
+            "avatar": "",
+            "name": "Đào **",
+            "intro": "Tôi là một chuyên gia trong việc làm sạch phòng khách lớn tại khách sạn Pullman Hotel Saigon Center, có trên 7 năm kinh nghiệm. Sử dụng các dụng cụ và sản phẩm diệt khuẩn chuyên dụng để đảm bảo phòng khách lớn tại khách sạn Pullman Hotel Saigon Center của bạn luôn sạch sẽ và an toàn."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 4,
+            "requirementName": "Sửa bếp từ",
+            "requirementIntro": "Bếp từ không lên lửa, không thể nấu nướng các món ăn. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa bếp từ để kiểm tra và khắc phục sự cố này.",
+            "age": "25-35 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2026-01-15",
+            "contactPhone": "13579246810",
+            "backupPhone": "13468102468",
+            "address": "Hà Nội, Quận Bắc Từ Liêm",
+            "detailAddress": "Đường Xuân Thủy",
+            "status": 1
+        },
+        "worker": {
+            "age": "30 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "7-8 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là bếp từ. Tôi có khả năng giải quyết mọi sự cố liên quan đến bếp từ."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 11,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không đủ lạnh, không thể bảo quản thực phẩm. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ lạnh để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-20",
+            "contactPhone": "13689753124",
+            "backupPhone": "13574123698",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "33 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "6-7 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 2,
+            "requirementName": "Sửa tủ quần áo",
+            "requirementIntro": "Tủ quần áo không hoạt động, không thể sấy khô quần áo. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ quần áo để kiểm tra và khắc phục sự cố này.",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-10-30",
+            "contactPhone": "13792468105",
+            "backupPhone": "13681052469",
+            "address": "Hà Nội, Quận Hoàng Mai",
+            "detailAddress": "Đường Kim Mã",
+            "status": 1
+        },
+        "worker": {
+            "age": "28 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "5-6 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ quần áo. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ quần áo."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 8,
+            "requirementName": "Sửa máy giặt",
+            "requirementIntro": "Máy giặt không hoạt động, không thể rửa quần áo. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa máy giặt để kiểm tra và khắc phục sự cố này.",
+            "age": "25-35 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-11-25",
+            "contactPhone": "13579246810",
+            "backupPhone": "13468102468",
+            "address": "Hà Nội, Quận Đống Đa",
+            "detailAddress": "Đường Võ Nguyên Giáp",
+            "status": 1
+        },
+        "worker": {
+            "age": "31 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "6-7 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy giặt. Tôi có khả năng giải quyết mọi sự cố liên quan đến máy giặt."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 6,
+            "requirementName": "Sửa lò vi sóng",
+            "requirementIntro": "Lò vi sóng không hoạt động, không thể nấu nướng các món ăn. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa lò vi sóng để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2026-02-10",
+            "contactPhone": "13579246810",
+            "backupPhone": "13468102468",
+            "address": "Hà Nội, Quận Cầu Giấy",
+            "detailAddress": "Đường Láng Hạ",
+            "status": 1
+        },
+        "worker": {
+            "age": "34 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "7-8 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là lò vi sóng. Tôi có khả năng giải quyết mọi sự cố liên quan đến lò vi sóng."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 3,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không đủ lạnh để bảo quản thực phẩm. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ lạnh để kiểm tra và khắc phục sự cố này.",
+            "age": "25-35 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-20",
+            "contactPhone": "13689753124",
+            "backupPhone": "13574123698",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "32 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "6-7 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 1,
+            "requirementName": "Sửa quạt thông gió",
+            "requirementIntro": "Quạt thông gió không quay, không thể tạo không gian mát mẻ. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa quạt thông gió để kiểm tra và khắc phục sự cố này.",
+            "age": "20-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-11-15",
+            "contactPhone": "13812345678",
+            "backupPhone": "13724567890",
+            "address": "Hà Nội, Quận Thanh Xuân",
+            "detailAddress": "Đường Xuân Thủy",
+            "status": 1
+        },
+        "worker": {
+            "age": "26 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "4-5 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là quạt thông gió. Tôi có khả năng giải quyết mọi sự cố liên quan đến quạt thông gió."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 7,
+            "requirementName": "Sửa máy lọc không khí",
+            "requirementIntro": "Máy lọc không khí không hoạt động, không thể làm sạch không khí. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa máy lọc không khí để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13579246810",
+            "backupPhone": "13468102468",
+            "address": "Hà Nội, Quận Nam Từ Liêm",
+            "detailAddress": "Đường Võ Thị Sáu",
+            "status": 1
+        },
+        "worker": {
+            "age": "35 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "7-8 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy lọc không khí. Tôi có khả năng giải quyết mọi sự cố liên quan đến máy lọc không khí."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 9,
+            "requirementName": "Sửa bếp từ",
+            "requirementIntro": "Bếp từ không lên được, không thể nấu nướng các món ăn. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa bếp từ để kiểm tra và khắc phục sự cố này.",
+            "age": "25-35 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-11-20",
+            "contactPhone": "13812345678",
+            "backupPhone": "13724567890",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "30 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "5-6 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là bếp từ. Tôi có khả năng giải quyết mọi sự cố liên quan đến bếp từ."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 1,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không đủ lạnh để bảo quản thực phẩm. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ lạnh để kiểm tra và khắc phục sự cố này.",
+            "age": "25-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13689753124",
+            "backupPhone": "13574123698",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "29 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "6-7 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 14,
+            "requirementName": "Sửa quạt trần",
+            "requirementIntro": "Quạt trần không quay, không thể thông gió cho toàn phòng. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa quạt trần để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-10",
+            "contactPhone": "13579246810",
+            "backupPhone": "13468102468",
+            "address": "Hà Nội, Quận Thanh Xuân",
+            "detailAddress": "Đường Xuân Thủy",
+            "status": 1
+        },
+        "worker": {
+            "age": "37 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "8-9 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là quạt trần. Tôi có khả năng giải quyết mọi sự cố liên quan đến quạt trần."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 10,
+            "requirementName": "Sửa máy giặt",
+            "requirementIntro": "Máy giặt không hoạt động, không thể rửa quần áo. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa máy giặt để kiểm tra và khắc phục sự cố này.",
+            "age": "25-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-10-30",
+            "contactPhone": "13812345678",
+            "backupPhone": "13724567890",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "27 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "5-6 năm",
+            "avatar": "",
+            "name": "Tran **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy giặt. Tôi có khả năng giải quyết mọi sự cố liên quan đến máy giặt."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 2,
+            "requirementName": "Sửa tủ quần áo",
+            "requirementIntro": "Tủ quần áo không mở được, không thể cất quần áo. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ quần áo để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-11-20",
+            "contactPhone": "13812345678",
+            "backupPhone": "13724567890",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "33 tuổi",
+            "sex": "Nữ",
+            "education": "Thạc sĩ",
+            "experience": "7-8 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ quần áo. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ quần áo."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 2,
+            "requirementName": "Sửa máy lọc không khí",
+            "requirementIntro": "Máy lọc không khí không hoạt động, không thể làm sạch không khí. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa máy lọc không khí để kiểm tra và khắc phục sự cố này.",
+            "age": "25-30 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-20",
+            "contactPhone": "13689753124",
+            "backupPhone": "13574123698",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "31 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "6-7 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là máy lọc không khí. Tôi có khả năng giải quyết mọi sự cố liên quan đến máy lọc không khí."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 1,
+            "requirementSubType1": 5,
+            "requirementName": "Sửa bếp từ",
+            "requirementIntro": "Bếp từ không lên được, không thể nấu các món ăn. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa bếp từ để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-15",
+            "contactPhone": "13812345678",
+            "backupPhone": "13724567890",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Xuân Thủy",
+            "status": 1
+        },
+        "worker": {
+            "age": "34 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "7-8 năm",
+            "avatar": "",
+            "name": "Le **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là bếp từ. Tôi có khả năng giải quyết mọi sự cố liên quan đến bếp từ."
+        }
+    },
+    {
+        "task": {
+            "requirementType": 2,
+            "requirementSubType3": 3,
+            "requirementName": "Sửa tủ lạnh",
+            "requirementIntro": "Tủ lạnh không đủ lạnh để bảo quản thực phẩm. Tôi cần một chuyên gia có kinh nghiệm trong việc sửa chữa tủ lạnh để kiểm tra và khắc phục sự cố này.",
+            "age": "30-40 tuổi",
+            "sex": "Không giới hạn",
+            "education": "Không giới hạn",
+            "experience": "Không giới hạn",
+            "stopTime": "2025-12-25",
+            "contactPhone": "13689753124",
+            "backupPhone": "13574123698",
+            "address": "Hà Nội, Quận Hai Bà Trưng",
+            "detailAddress": "Đường Lý Thường Kiệt",
+            "status": 1
+        },
+        "worker": {
+            "age": "35 tuổi",
+            "sex": "Nam",
+            "education": "Thạc sĩ",
+            "experience": "8-9 năm",
+            "avatar": "",
+            "name": "Nguyen **",
+            "intro": "Tôi là chuyên gia trong việc sửa chữa các thiết bị gia dụng, đặc biệt là tủ lạnh. Tôi có khả năng giải quyết mọi sự cố liên quan đến tủ lạnh."
+        }
+    }
+]

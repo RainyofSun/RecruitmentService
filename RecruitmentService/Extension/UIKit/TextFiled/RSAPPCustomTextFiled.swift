@@ -16,8 +16,8 @@ class RSAPPCustomTextFiled: UITextField {
     }
     
     override func rightViewRect(forBounds bounds: CGRect) -> CGRect {
-        var rect = super.leftViewRect(forBounds: bounds)
-        rect.origin.x += 5
+        var rect = super.rightViewRect(forBounds: bounds)
+        rect.origin.x -= 5
         return rect
     }
     

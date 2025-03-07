@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import JWAquites
 
 class APBaseTabBarController: UITabBarController {
 
@@ -27,10 +28,8 @@ class APBaseTabBarController: UITabBarController {
     }
     
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
-        if let keyPath = keyPath, let change = change, let newValue = change[.newKey] as? Bool {
-            if keyPath == APP_LOGIN_KEY && !newValue {
-                self.selectedIndex = .zero
-            }
+        if let keyPath = keyPath, keyPath == APP_LOGIN_KEY, !Global.shared.appLogin {
+            self.selectedIndex = .zero
         }
     }
     
@@ -66,7 +65,23 @@ private extension APBaseTabBarController {
 
 // MARK: APCustomTabbarProtocol
 extension APBaseTabBarController: APCustomTabbarProtocol {
-    func ap_canSelected() -> Bool {
+    func ap_canSelected(index: Int) -> Bool {
+        guard let _vcArray = self.viewControllers, index < _vcArray.count else {
+            return false
+        }
+        
+        guard let _nav = _vcArray[index] as? APBaseNavigationController else {
+            return false
+        }
+        
+        let viewController = _nav.topViewController
+        if (viewController is RSAPPPublishViewController || viewController is RSAPPNotificationViewController) && Global.shared.userData == nil {
+            let navController = APBaseNavigationController(rootViewController: RSAPPLoginViewController())
+            navController.modalPresentationStyle = .fullScreen
+            WebPro.enterLoginPage(navController)
+            return false
+        }
+        
         return true
     }
     

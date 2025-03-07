@@ -54,4 +54,20 @@ extension UIViewController {
             self.present(alertViewController, animated: true)
         }
     }
+    
+    func showTZImagePicker(delegate: TZImagePickerControllerDelegate?) {
+        let imagePickerVc = TZImagePickerController(maxImagesCount: 1, columnNumber: 4, delegate: delegate, pushPhotoPickerVc: true)
+        imagePickerVc?.allowPickingImage = true
+        imagePickerVc?.allowTakePicture = false
+        imagePickerVc?.allowTakeVideo = false
+        imagePickerVc?.allowPickingGif = false
+        imagePickerVc?.allowPickingVideo = false
+        imagePickerVc?.allowCrop = true
+        imagePickerVc?.cropRect = CGRect(x: 0, y: (ScreenHeight - ScreenWidth) * 0.5, width: ScreenWidth, height: ScreenWidth)
+        imagePickerVc?.statusBarStyle = .lightContent
+        imagePickerVc?.modalPresentationStyle = .fullScreen
+        if let _vc = imagePickerVc {
+            self.present(_vc, animated: true)
+        }
+    }
 }

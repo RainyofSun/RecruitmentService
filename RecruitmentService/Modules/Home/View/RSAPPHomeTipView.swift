@@ -9,17 +9,15 @@ import UIKit
 
 class RSAPPHomeTipView: UIView {
 
-    open var gotoClosure: ((Bool) -> Void)?
+    open var gotoClosure: (() -> Void)?
     
     private lazy var tipLab: UILabel = UILabel.buildLabel(labFont: UIFont.systemFont(ofSize: 14))
     private lazy var tipBtn: UIButton = UIButton.buildButton(titleColor: .white)
-    private var hasLogin: Bool = false
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        self.tipLab.text = RSAPPLanguage.localValue("home_tip_unlogin")
-        self.tipBtn.setTitle(RSAPPLanguage.localValue("home_tip_goto_login"), for: UIControl.State.normal)
+        self.setupUI()
         self.tipBtn.addTarget(self, action: #selector(clickTipButton(sender: )), for: UIControl.Event.touchUpInside)
         
         self.addSubview(self.tipLab)
@@ -49,25 +47,34 @@ class RSAPPHomeTipView: UIView {
     }
     
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
-        if let keyPath = keyPath, let change = change, let newValue = change[.newKey] as? Bool {
-            if keyPath == APP_LOGIN_KEY {
-                self.hasLogin = newValue
-                DispatchQueue.main.async {
-                    if newValue {
-                        self.tipLab.text = RSAPPLanguage.localValue("home_tip_unpublish")
-                        self.tipBtn.setTitle(RSAPPLanguage.localValue("home_tip_goto_publish"), for: UIControl.State.normal)
-                    } else {
-                        self.tipLab.text = RSAPPLanguage.localValue("home_tip_unlogin")
-                        self.tipBtn.setTitle(RSAPPLanguage.localValue("home_tip_goto_login"), for: UIControl.State.normal)
-                    }
+        if let keyPath = keyPath, keyPath == APP_LOGIN_KEY {
+            DispatchQueue.main.async {
+                if Global.shared.appLogin {
+                    self.tipLab.text = RSAPPLanguage.localValue("home_tip_unpublish")
+                    self.tipBtn.setTitle(RSAPPLanguage.localValue("home_tip_goto_publish"), for: UIControl.State.normal)
+                } else {
+                    self.tipLab.text = RSAPPLanguage.localValue("home_tip_unlogin")
+                    self.tipBtn.setTitle(RSAPPLanguage.localValue("home_tip_goto_login"), for: UIControl.State.normal)
                 }
             }
         }
     }
 }
 
+private extension RSAPPHomeTipView {
+    func setupUI() {
+        if Global.shared.appLogin {
+            self.tipLab.text = RSAPPLanguage.localValue("home_tip_unpublish")
+            self.tipBtn.setTitle(RSAPPLanguage.localValue("home_tip_goto_publish"), for: UIControl.State.normal)
+        } else {
+            self.tipLab.text = RSAPPLanguage.localValue("home_tip_unlogin")
+            self.tipBtn.setTitle(RSAPPLanguage.localValue("home_tip_goto_login"), for: UIControl.State.normal)
+        }
+    }
+}
+
 @objc private extension RSAPPHomeTipView {
     func clickTipButton(sender: UIButton) {
-        self.gotoClosure?(self.hasLogin)
+        self.gotoClosure?()
     }
 }

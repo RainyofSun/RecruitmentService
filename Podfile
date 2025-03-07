@@ -24,6 +24,9 @@ def CommonPods
    pod 'IQKeyboardManagerSwift', '8.0.0'
    pod 'Mach-Swift', '1.1.1'
    pod 'JWAquites', :path => 'lib'
+   pod 'JKSwiftExtension', "2.7.1"
+   pod 'BRPickerView/Default','2.9.1'
+   pod 'LJContactManager', '1.0.7'
 end
 
 target 'RecruitmentService' do

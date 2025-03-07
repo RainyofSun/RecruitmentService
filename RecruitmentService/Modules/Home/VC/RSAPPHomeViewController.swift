@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import JWAquites
 
 class RSAPPHomeViewController: APBaseViewController, HideNavigationBarProtocol {
 
@@ -33,13 +32,12 @@ class RSAPPHomeViewController: APBaseViewController, HideNavigationBarProtocol {
         self.contentView.addSubview(self.thirdQuestionItem)
         self.contentView.addSubview(self.tipView)
         
-        self.tipView.gotoClosure = { [weak self] (hasLogin: Bool) in
-            if hasLogin {
+        self.tipView.gotoClosure = { [weak self] in
+            if Global.shared.userData != nil {
                 self?.tabBarController?.selectedIndex = 1
             } else {
                 let navController = APBaseNavigationController(rootViewController: RSAPPLoginViewController())
                 navController.modalPresentationStyle = .fullScreen
-                //self?.present(navController, animated: true, completion: nil)
                 WebPro.enterLoginPage(navController)
             }
         }

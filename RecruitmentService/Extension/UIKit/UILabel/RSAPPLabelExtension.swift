@@ -46,4 +46,15 @@ extension UIButton {
         
         return btn
     }
+    
+    class func buildLoadingButton(_ title: String, cornerRadius radius: CGFloat) -> RSAPPLoadingButton {
+        let view = RSAPPLoadingButton(type: UIButton.ButtonType.custom)
+        view.setTitle(title, for: UIControl.State.normal)
+        view.setTitleColor(UIColor.white, for: UIControl.State.normal)
+        view.titleLabel?.font = UIFont.systemFont(ofSize: 14, weight: UIFont.Weight.medium)
+        view.layer.cornerRadius = radius
+        view.clipsToBounds = true
+        view.backgroundColor = BLUE_COLOR_1874FF
+        return view
+    }
 }

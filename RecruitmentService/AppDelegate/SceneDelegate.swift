@@ -20,6 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         self.window = UIWindow.init(windowScene: scene as! UIWindowScene)
         // 开启网络监测
         RSAPPNetObserver.shared.NetworkStatusListener()
+        // 设备认证
+        let _ = RSAPPDeviceAuthorizationTool.instance
         // log 日志
         CocoaLog.shared.registe(with: EnvType.other)
         // 初始化多语言

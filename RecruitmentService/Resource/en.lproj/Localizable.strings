@@ -17,6 +17,13 @@
 "alert_btn_cancel" = "不允许";
 "alert_title" = "温馨提示";
 "alert_left_title" = "取消";
+"alert_camera" = "%@ 想访问你的摄像头";
+"alert_camera_tip" = "为您提供拍摄简历照片服务";
+"alert_thumb" = "%@ 想访问你的相册";
+"alert_contact" = "%@ 想访问你的联系人";
+"alert_contact_tip" = "为您提供备用联系人服务";
+"alert_location" = "%@ 想访问你的位置";
+"alert_location_tip" = "为您提供服务位置登记服务";
 
 // MARK: Home
 "home_question_title1" = "1. %@ 是干什么的？";
@@ -25,14 +32,138 @@
 "home_question_content2" = "%@ 主要向个人或者机构提供查阅服务者、需求发布和磋商服务项目，以满足生活日常需要";
 "home_question_title3" = "3. 如何使用 %@ ?";
 "home_question_content3" = "您可以在登录后在发布页面发布您的需求，然后等待服务者与您联系即可。";
-"home_tip_unlogin" = "当前未登录，无法使用平台功能";
+"home_tip_unlogin" = "当前未登录，无法发布你的需求";
 "home_tip_goto_login" = "去登录";
 "home_tip_unpublish" = "暂未发布需求";
 "home_tip_goto_publish" = "去发布";
 
+// MARK: Publish
+"publish_top_right_item" = "添加新需求";
+"publish_top_menu_item1" = "全部";
+"publish_top_menu_item2" = "招聘中";
+"publish_top_menu_item3" = "待发布";
+"publish_top_menu_item4" = "已下线";
+"publish_empty_title" = "暂无消息";
+"publish_task_name" = "需求名称";
+"publish_task_end" = "已结束";
+"publish_task_stop" = "停止";
+"publish_task_start" = "发布";
+"publish_new_task_nav_title" = "发布用工";
+"publish_process_step_one" = "需求说明";
+"publish_process_step_two" = "需求须知";
+"publish_process_step_three" = "发布需求";
+"publish_requirement_type" = "需求类型";
+"publish_requirement_type_place" = "请选择需求类型";
+"publish_requirement_name" = "需求名称";
+"publish_requirement_name_place" = "请输入零工名称";
+"publish_requirement_intro" = "需求介绍";
+"publish_requirement_intro_place" = "请详细描述您的需求...";
+"publish_requirement_age" = "年龄范围";
+"publish_requirement_age_place" = "请选择年龄范围";
+"publish_requirement_sex" = "性别要求";
+"publish_requirement_sex_place" = "请选择您需要的性别要求";
+"publish_requirement_education" = "学历情况";
+"publish_requirement_education_place" = "请选择您需要学历情况";
+"publish_requirement_experience" = "经验要求";
+"publish_requirement_experience_place" = "请选择您需要的经验要求";
+"publish_requirement_stop_time" = "截止时间";
+"publish_requirement_stop_time_place" = "请输入零工截止时间 年/月/日";
+"publish_requirement_contact" = "联系电话";
+"publish_requirement_contact_place" = "请输入联系号码";
+"publish_requirement_backup" = "备用号码";
+"publish_requirement_backup_place" = "请输入备用号码";
+"publish_requirement_address" = "服务地点";
+"publish_requirement_address_place" = "请输入服务地点";
+"publish_requirement_detail_address" = "详细位置";
+"publish_requirement_detail_address_place" = "详细位置";
+"publish_requirement_next" = "下一步";
+"publish_requirement_publish" = "发布";
+"publish_requirement_stop" = "停止";
+"publish_requirement_draft" = "存草稿";
+
+// MARK: 任务类型
+"task_type1" = "维修";
+"task_suubtype1_1" = "电视机";
+"task_suubtype1_2" = "冰箱";
+"task_suubtype1_3" = "空调";
+"task_suubtype1_4" = "洗衣机";
+"task_suubtype1_5" = "热水器";
+"task_suubtype1_6" = "电脑";
+"task_suubtype1_7" = "手机";
+"task_suubtype1_8" = "平板电脑";
+"task_suubtype1_9" = "灯具";
+"task_suubtype1_10" = "水龙头";
+"task_suubtype1_11" = "马桶";
+"task_suubtype1_12" = "门窗";
+"task_suubtype1_13" = "家具";
+"task_suubtype1_14" = "下水管道";
+"task_suubtype1_15" = "上水管道";
+"task_suubtype1_16" = "锁具";
+"task_suubtype1_17" = "电动工具";
+
+"task_type2" = "保洁";
+"task_suubtype2_1" = "家具表面擦拭";
+"task_suubtype2_2" = "地面清洁";
+"task_suubtype2_3" = "装饰品清洁";
+"task_suubtype2_4" = "窗户清洁";
+"task_suubtype2_5" = "床铺整理";
+"task_suubtype2_6" = "家具清洁";
+"task_suubtype2_7" = "橱柜表面清洁";
+"task_suubtype2_8" = "炉灶清洁";
+"task_suubtype2_9" = "水槽清洁";
+"task_suubtype2_10" = "电器表面清洁";
+"task_suubtype2_11" = "马桶清洁";
+"task_suubtype2_12" = "洗手盆清洁";
+"task_suubtype2_13" = "淋浴间清洁";
+
+// MARK: 年龄
+"age_1" = "18-22岁";
+"age_2" = "23-30岁";
+"age_3" = "31-45岁";
+"age_4" = "46-55岁";
+"age_5" = "55岁以上";
+
+// MARK: 性别
+"sex_1" = "男";
+"sex_2" = "女";
+"sex_3" = "不限";
+
+// MARK: 学历
+"education_1" = "不限";
+"education_2" = "小学及以下";
+"education_3" = "初中";
+"education_4" = "高中";
+"education_5" = "大学及以上";
+
+// MARK: 经验
+"experience_1" = "不限";
+"experience_2" = "一年及以下";
+"experience_3" = "1-3年";
+"experience_4" = "3-5年";
+"experience_5" = "5年以上";
+
 // MARK: Notification
 "notification_empty_title" = "暂未发布需求";
 "notification_empty_try_title" = "去发布";
+"notification_detail" = "通知详情";
+"notification_check_title" = "已经有 %@ 人查看";
+"notification_check_btn_title" = "查看详情";
+"notification_worker_des" = "自我描述";
+"notification_accept" = "接受";
+"notification_refuse" = "拒绝";
+"notification_tip1" = "%@师傅已收到您的需求";
+"notification_pop_code" = "请输入核销码";
+"notification_tip2" = "确定服务完成吗？请仔细验收后确认
+并在下方输入服务人员提供的核销码";
+"notification_evalute" = "好评";
+"notification_evalute_tip1" = "您对服务是否满意呢？";
+"notification_evalute_tip2" = "服务态度";
+"notification_evalute_tip3" = "服务质量";
+"notification_evalute_tip4" = "服务速度";
+"notification_evalute_tip5" = "请输入您的评价内容...";
+"notification_evalute_tip6" = "评价内容";
+"notification_evalute_tip7" = "评价";
+"notification_evalute_tip8" = "感谢您的好评~~";
 
 // MARK: Login
 "login_vistor" = "游客访问";
@@ -46,3 +177,52 @@
 "login_protocol2" = "《用户协议》";
 "login_protocol3" = " 和 ";
 "login_protocol4" = "《隐私政策》";
+
+// MARK: Mine
+"mine_login_tatus_unlogin" = "未登录";
+"mine_login_tip" = "其他功能";
+"mine_about_us" = "关于我们";
+"mine_user_privacy" = "用户协议";
+"mine_privacy" = "隐私政策";
+"mine_cancel" = "注销账号";
+"mine_logout" = "退出登录";
+"mine_about_us_text" = "我们的 app 无疑是一款极具创新和实用性的应用程序，在当今数字化的时代中脱颖而出。它以人性化的设计，为用户精心打造出全新的体验。
+       这款应用主要专注于线上维修和保洁的发布与接单服务。在维修领域，无论是复杂的家电故障，如电视机的屏幕故障、冰箱的制冷问题、空调的不制冷或噪音异常等；还是家居设施的损坏，如门窗的关不严、水龙头的漏水、马桶的堵塞等；亦或是电子产品出现的各种问题，如电脑的硬件故障、手机的屏幕更换、平板电脑的系统问题等，用户都可以通过该 app 轻松发布维修需求。专业的维修人员会迅速响应并接单，他们凭借丰富的经验和精湛的技术，以高效的服务为用户解决各种维修难题，确保用户的生活不受影响。
+        而在保洁方面，无论是日常的家庭清洁，包括客厅、卧室、厨房、卫生间等各个区域的清扫；还是深度清洁，如窗户玻璃的深度清洁、家电内部的清洁等；又或是特定区域的保洁需求，如沙发清洁、窗帘清洁等，用户同样可以便捷地发布任务。经验丰富的保洁人员会及时接单，他们使用专业的清洁工具和环保的清洁剂，为用户提供高质量的保洁服务，让用户的居住环境焕然一新。
+      我们致力于打造一个便捷、高效、可靠的线上维修和保洁服务平台。我们提供服务的人员具备专业的技能和良好的服务态度。同时，完善的评价体系也让用户可以对服务进行反馈，促进服务质量的不断提升。为用户的生活带来更多便利，成为用户生活中不可或缺的好帮手。";
+"mine_protocol_pop_title" = "用户协议/隐私政策";
+"mine_protocol_pop_content" = "我们承诺保护您的个人信息安全。本平台仅收集必要的用户数据，用于提供服务、改进体验及遵循法律要求。我们将严格保密，不向第三方披露，除非获得用户明确同意或法律强制规定。所有数据均采用加密存储和传输。用户有权随时访问、更正或删除其个人信息。如有疑问，请联系我们。";
+"mine_protocol_close" = "关闭";
+"mine_pop_cancel" = "账户注销后我们将清空你的账户内的信息
+请谨慎操作！！！";
+"mine_pop_cancel_right_title" = "注销";
+"mine_pop_unlogin_tip" = "检测到您当前未登录，您可在登录后使用该功能";
+"mine_pop_unlogin_right_title" = "去登录";
+
+// MARK: Refresh
+"refresh_pull_idle" = "Pull down to refresh";
+"refresh_pulling" = "Release to refresh";
+"refresh_refreshing" = "Loading...";
+"refresh_footer_idle" = "Tap or pull up to load more";
+"refresh_footer_refreshing" = "Loading...";
+"refresh_footer_nomoredata" = "No more data";
+
+// MARK: Pop
+"pop_task_type_title" = "请选择类型";
+"pop_cancel" = "取消";
+"pop_confirm" = "确认";
+"pop_thumb" = "相册上传";
+"pop_camera" = "拍照上传";
+"pop_complete_requirement" = "请完善招工信息";
+
+// MARK: Alert
+"alert_addressbook_system" = "The APP applies to access the contact list";
+"alert_location_system" = "The current application collects your location information. You can open Settings-Privacy System and set it to off at any time.";
+"alert_camera_system" = "Authorize camera access to easily take photos and have a convenient operation process.";
+"alert_album_system" = "Grant album permission to conveniently select and upload photos and accelerate the application process.";
+"alert_address" = "Please verify your address";
+"alert_sheet_cancel" = "Cancel";
+"alert_sheet_ok" = "OK";
+"alert_save_draft_success" = "保存草稿成功!";
+"alert_publish_success" = "招工信息发布成功!";
+"alert_stop_success" = "已停止招工!";
