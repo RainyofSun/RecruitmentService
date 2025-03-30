@@ -8,7 +8,8 @@
 import UIKit
 
 // MARK: URL
-let BASE_URL: String = "http://api.ddongl.com/"
+//let BASE_URL: String = "http://api.ddongl.com/"
+let BASE_URL: String = "http://api.fiksgo.com/"
 /// 仅在测试阶段使用
 let Boundle_ID: String = "com.abcd.test"
 
@@ -35,5 +36,5 @@ public let APPNetStateNotification = Notification.Name("com.rs.notification.name
 public let APPGoToPublishTabNotification = Notification.Name("com.rs.notification.name.tab.gotoPublish")
 
 // MARK: 协议
-let USER_PRIVACY: String = "http://baidu.com"
-let PRIVACY_POLICY: String = "http://baidu.com"
+let USER_PRIVACY: String = "https://www.fiksgo.com/user-agreement"
+let PRIVACY_POLICY: String = "https://www.fiksgo.com/privacy-policy"

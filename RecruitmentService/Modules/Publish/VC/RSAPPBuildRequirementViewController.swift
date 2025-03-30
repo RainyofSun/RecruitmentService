@@ -219,7 +219,9 @@ private extension RSAPPBuildRequirementViewController {
     func takePhotoWithCamera() {
         RSAPPDeviceAuthorizationTool.requsetCameraAuthorization {[weak self] (auth: Bool) in
             guard auth else {
-                self?.showSystemStyleSettingAlert(content: RSAPPLanguage.localValue("alert_camera"))
+                DispatchQueue.main.async(execute: {
+                    self?.showSystemStyleSettingAlert(content: RSAPPLanguage.localValue("alert_camera_system"))
+                })
                 return
             }
             DispatchQueue.main.async {

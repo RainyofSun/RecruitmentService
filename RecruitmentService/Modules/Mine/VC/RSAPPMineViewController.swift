@@ -175,9 +175,9 @@ class RSAPPMineViewController: APBaseViewController, HideNavigationBarProtocol {
             self?.avatarBtn.kf.setImage(with: _url, for: UIControl.State.normal, options: [.transition(.fade(0.3))])
         }
         
-        
-        
         self.loginoutBtn.isHidden = !Global.shared.appLogin
+        self.cancelItem.isHidden = self.loginoutBtn.isHidden
+        
         if Global.shared.appLogin {
             if let _name = Global.shared.userData?.userId, let _phone = Global.shared.userData?.phone {
                 let paramStyle: NSMutableParagraphStyle = NSMutableParagraphStyle()

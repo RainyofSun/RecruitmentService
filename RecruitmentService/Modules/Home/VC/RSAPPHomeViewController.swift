@@ -8,30 +8,54 @@
 import UIKit
 
 class RSAPPHomeViewController: APBaseViewController, HideNavigationBarProtocol {
-
+    
+    private lazy var groupTableView: UITableView = {
+        let view = UITableView(frame: CGRectZero, style: UITableView.Style.grouped)
+        view.separatorStyle = .none
+        return view
+    }()
+    
     private lazy var bannerView: UIImageView = UIImageView(image: UIImage(named: "home_banner"))
-    private lazy var firstQuestionItem: RSAPPHomeQuestionView = RSAPPHomeQuestionView(frame: CGRectZero)
-    private lazy var secondQuestionItem: RSAPPHomeQuestionView = RSAPPHomeQuestionView(frame: CGRectZero)
-    private lazy var thirdQuestionItem: RSAPPHomeQuestionView = RSAPPHomeQuestionView(frame: CGRectZero)
     private lazy var tipView: RSAPPHomeTipView = RSAPPHomeTipView(frame: CGRectZero)
+    
+    private var question_model_array: [RSAPPHomeQuestionGroupModel] = []
     
     override func buildViewUI() {
         super.buildViewUI()
         
-        self.firstQuestionItem.setQuestionTitle(title: "home_question_title1", content: "home_question_content1")
-        self.secondQuestionItem.setQuestionTitle(title: "home_question_title2", content: "home_question_content2")
-        self.thirdQuestionItem.setQuestionTitle(title: "home_question_title3", content: "home_question_content3")
+        let group_titles: [String] = [RSAPPLanguage.localValue("home_question_title1"), RSAPPLanguage.localValue("home_question_title2"), RSAPPLanguage.localValue("home_question_title3")]
+        let question_array: [String] = [RSAPPLanguage.localValue("home_question_content1"), RSAPPLanguage.localValue("home_question_content2"), RSAPPLanguage.localValue("home_question_content3")]
         
-        self.firstQuestionItem.addTarget(self, action: #selector(clickQuestionItem(sender: )), for: UIControl.Event.touchUpInside)
-        self.secondQuestionItem.addTarget(self, action: #selector(clickQuestionItem(sender: )), for: UIControl.Event.touchUpInside)
-        self.thirdQuestionItem.addTarget(self, action: #selector(clickQuestionItem(sender: )), for: UIControl.Event.touchUpInside)
+        group_titles.enumerated().forEach { (idx: Int, group: String) in
+            let groupModel: RSAPPHomeQuestionGroupModel = RSAPPHomeQuestionGroupModel()
+            groupModel.groupTitle = group
+            let q_m: RSAPPHomeQuestionModel = RSAPPHomeQuestionModel()
+            q_m.content = question_array[idx]
+            groupModel.question = [q_m]
+            self.question_model_array.append(groupModel)
+        }
         
-        self.contentView.addSubview(self.bannerView)
-        self.contentView.addSubview(self.firstQuestionItem)
-        self.contentView.addSubview(self.secondQuestionItem)
-        self.contentView.addSubview(self.thirdQuestionItem)
-        self.contentView.addSubview(self.tipView)
+        self.contentView.isHidden = true
         
+        self.groupTableView.delegate = self
+        self.groupTableView.dataSource = self
+        
+        self.groupTableView.register(RSAPPHomeQuestionView.self, forCellReuseIdentifier: RSAPPHomeQuestionView.className)
+        self.groupTableView.register(RSAPPHomeQuestionHeaderView.self, forHeaderFooterViewReuseIdentifier: RSAPPHomeQuestionHeaderView.className)
+        
+        let headerView: UIView = UIView(frame: CGRect(x: 0, y: .zero, width: ScreenWidth, height: (ScreenWidth - PADDING_UNIT * 14) * 1.44))
+        self.bannerView.frame = CGRect(origin: CGPoint(x: PADDING_UNIT * 7, y: .zero), size: CGSize(width: ScreenWidth - PADDING_UNIT * 14, height: (ScreenWidth - PADDING_UNIT * 14) * 1.44))
+        headerView.addSubview(self.bannerView)
+        
+        let footerView: UIView = UIView(frame: CGRect(x: 0, y: .zero, width: ScreenWidth, height: 100))
+        self.tipView.frame = footerView.bounds
+        footerView.addSubview(self.tipView)
+        
+        self.groupTableView.tableHeaderView = headerView
+        self.groupTableView.tableFooterView = footerView
+        
+        self.view.addSubview(self.groupTableView)
+       
         self.tipView.gotoClosure = { [weak self] in
             if Global.shared.userData != nil {
                 self?.tabBarController?.selectedIndex = 1
@@ -46,33 +70,66 @@ class RSAPPHomeViewController: APBaseViewController, HideNavigationBarProtocol {
     override func layoutControlViews() {
         super.layoutControlViews()
         
-        self.bannerView.snp.makeConstraints { make in
-            make.left.equalToSuperview().offset(PADDING_UNIT * 7)
-            make.top.equalToSuperview().offset(PADDING_UNIT)
-            make.size.equalTo(CGSize(width: ScreenWidth - PADDING_UNIT * 14, height: (ScreenWidth - PADDING_UNIT * 14) * 0.44))
+        self.groupTableView.snp.makeConstraints { make in
+            make.edges.equalTo(self.contentView)
+        }
+    }
+}
+
+extension RSAPPHomeViewController: UITableViewDelegate, UITableViewDataSource {
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return self.question_model_array.count
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        let sectionModel: RSAPPHomeQuestionGroupModel = self.question_model_array[section]
+        if sectionModel.isExpand {
+            return self.question_model_array[section].question?.count ?? 1
         }
         
-        self.firstQuestionItem.snp.makeConstraints { make in
-            make.left.equalToSuperview().offset(PADDING_UNIT * 3)
-            make.top.equalTo(self.bannerView.snp.bottom).offset(PADDING_UNIT * 4)
-            make.width.equalTo(ScreenWidth - PADDING_UNIT * 6)
+        return .zero
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let _cell = tableView.dequeueReusableCell(withIdentifier: RSAPPHomeQuestionView.className, for: indexPath) as? RSAPPHomeQuestionView else {
+            return UITableViewCell()
         }
         
-        self.secondQuestionItem.snp.makeConstraints { make in
-            make.left.width.equalTo(self.firstQuestionItem)
-            make.top.equalTo(self.firstQuestionItem.snp.bottom).offset(PADDING_UNIT * 3.5)
+        if let _c = self.question_model_array[indexPath.section].question?.first?.content {
+            _cell.setQuestionTitle(content: _c)
         }
         
-        self.thirdQuestionItem.snp.makeConstraints { make in
-            make.left.width.equalTo(self.secondQuestionItem)
-            make.top.equalTo(self.secondQuestionItem.snp.bottom).offset(PADDING_UNIT * 3.5)
+        return _cell
+    }
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        guard let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: RSAPPHomeQuestionHeaderView.className) as? RSAPPHomeQuestionHeaderView else {
+            return nil
         }
         
-        self.tipView.snp.makeConstraints { make in
-            make.left.width.equalToSuperview()
-            make.top.equalTo(self.thirdQuestionItem.snp.bottom)
-            make.bottom.equalToSuperview().offset(-PADDING_UNIT * 2)
+        header.reloadHeaderTitle(self.question_model_array[section].groupTitle ?? "", isExpand: self.question_model_array[section].isExpand)
+        header.clickHeaderClousre = { [weak self] in
+            guard let _self = self else {
+                return
+            }
+            _self.question_model_array[section].isExpand = !_self.question_model_array[section].isExpand
+            tableView.beginUpdates()
+            tableView.reloadSections([section], with: .fade)
+            tableView.endUpdates()
         }
+        return header
+    }
+    
+    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        return nil
+    }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 30
+    }
+    
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 0.00001
     }
 }
 

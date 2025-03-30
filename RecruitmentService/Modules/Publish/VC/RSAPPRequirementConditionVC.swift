@@ -189,7 +189,9 @@ extension RSAPPRequirementConditionVC: APPRequirementInfoItemProtocol {
             if RSAPPDeviceAuthorizationTool.contactAuthorizationStatus() != .authorized && RSAPPDeviceAuthorizationTool.contactAuthorizationStatus() != .limited {
                 LJContactManager.sharedInstance().requestAddressBookAuthorization {[weak self] (auth: Bool) in
                     guard auth else {
-                        self?.showSystemStyleSettingAlert(content: RSAPPLanguage.localValue("alert_addressbook_system"))
+                        DispatchQueue.main.async(execute: {
+                            self?.showSystemStyleSettingAlert(content: RSAPPLanguage.localValue("alert_addressbook_system"))
+                        })
                         return
                     }
                     

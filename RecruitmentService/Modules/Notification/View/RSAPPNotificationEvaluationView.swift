@@ -292,7 +292,9 @@ private extension RSAPPNotificationEvaluationView {
     func takePhotoWithCamera() {
         RSAPPDeviceAuthorizationTool.requsetCameraAuthorization {[weak self] (auth: Bool) in
             guard auth else {
-                self?.superController?.showSystemStyleSettingAlert(content: RSAPPLanguage.localValue("alert_camera"))
+                DispatchQueue.main.async(execute: {
+                    self?.superController?.showSystemStyleSettingAlert(content: RSAPPLanguage.localValue("alert_camera_system"))
+                })
                 return
             }
             DispatchQueue.main.async {

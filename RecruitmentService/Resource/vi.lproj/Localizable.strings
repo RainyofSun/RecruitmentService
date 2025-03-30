@@ -27,7 +27,7 @@
 
 // MARK: Home
 "home_question_title1" = "1, %@ là gì?";
-"home_question_content1" = "%@ là một phần mềm được phát hành chủ yếu cho các cá nhân hoặc các tổ chức cung cấp các nhu cầu ngắn hạn như bảo trì tại nhà và dịch vụ làm sạch.";
+"home_question_content1" = "%@ là phần mềm chủ yếu được phát hành để cung cấp các nhu cầu ngắn hạn như dịch vụ sửa chữa và vệ sinh tại chỗ cho cá nhân.";
 "home_question_title2" = "2, Ai là đối tượng phục vụ của %@?";
 "home_question_content2" = "%@ chủ yếu cung cấp cho các cá nhân hoặc các tổ chức tham khảo các dịch vụ, nhu cầu phát hành và thảo luận các dự án dịch vụ để đáp ứng nhu cầu hàng ngày của cuộc sống";
 "home_question_title3" = "3, Làm thế nào để sử dụng %@?";

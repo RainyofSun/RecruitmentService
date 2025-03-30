@@ -68,6 +68,10 @@ extension UIView {
         pickerStyle.pickerTextColor = UIColor.hexString("#656C74")
         pickerStyle.selectRowTextColor = BLACK_COLOR_333333
         pickerStyle.selectRowTextFont = UIFont.systemFont(ofSize: 16)
+        var doneFrame = pickerStyle.doneBtnFrame
+        doneFrame.size.width += 30
+        doneFrame.origin.x -= 30
+        pickerStyle.doneBtnFrame = doneFrame
         textPickerView.pickerStyle = pickerStyle
         
         var array1: [[String: String]] = []

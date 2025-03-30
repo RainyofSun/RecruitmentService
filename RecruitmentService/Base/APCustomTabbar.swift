@@ -174,6 +174,7 @@ extension APCustomTabbar {
             button.setTitleColor(UIColor.init(red: 24/255.0, green: 116/255.0, blue: 255/255.0, alpha: 1), for: UIControl.State.selected)
             button.setImage(UIImage(named: image), for: UIControl.State.normal)
             button.setImage(UIImage(named: selectImages[index]), for: UIControl.State.selected)
+            button.imageView?.contentMode = .scaleAspectFit
             if let _c_index = self.center_index {
                 if index < _c_index {
                     button.frame = CGRect(x: item_width * CGFloat(index), y: .zero, width: item_width, height: item_height)

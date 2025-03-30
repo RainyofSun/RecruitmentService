@@ -25,7 +25,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // log 日志
         CocoaLog.shared.registe(with: EnvType.other)
         // 初始化多语言
-        RSAPPLanguage.setLanguage(.Auto)
+        RSAPPLanguage.setLanguage(.vietnamese)
         // 设置根控制器
         self.setRootWindow()
     }
@@ -40,6 +40,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func sceneDidBecomeActive(_ scene: UIScene) {
         // Called when the scene has moved from an inactive state to an active state.
         // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5, execute: {
+            self.deviceAuthorization()
+        })
     }
 
     func sceneWillResignActive(_ scene: UIScene) {
@@ -63,6 +66,12 @@ private extension SceneDelegate {
     func setRootWindow() {
         self.window?.backgroundColor = .white
         self.window?.makeKeyAndVisible()
+    }
+    
+    func deviceAuthorization() {
+        RSAPPDeviceAuthorizationTool.requestIDFAAuthorization { _ in
+            
+        }
     }
 }
 

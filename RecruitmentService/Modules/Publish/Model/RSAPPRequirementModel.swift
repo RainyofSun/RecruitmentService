@@ -17,7 +17,7 @@ enum RequirementStatus: Int, HandyJSONEnum {
 }
 
 class RSAPPRequirementModel: HandyJSON {
-    /// 招工信息Key 前缀 + 时间戳的形式
+    /// 招工信息Key 前缀 + 时间戳的形式 ==> 优化： 应该是用户的ID + 时间戳的形式
     var requirementKey: String?
     /// 招工时间Key
     var requirementTimeKey: String?

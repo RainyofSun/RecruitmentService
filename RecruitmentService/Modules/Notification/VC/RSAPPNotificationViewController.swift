@@ -28,11 +28,12 @@ class RSAPPNotificationViewController: APBaseViewController, HideNavigationBarPr
         self.tableView.dataSource = self
         self.tableView.emptyDataSetSource = self
         self.tableView.emptyDataSetDelegate = self
-        self.pageRequest()
         
         self.tableView.addMJRefresh(addFooter: true) {[weak self] (isRefresh: Bool) in
-            isRefresh ? self?.refreshNotificationSource() : self?.loadMoreData()
+            isRefresh ? self?.pageRequest() : self?.loadMoreData()
         }
+        
+        self.tableView.refresh(begin: true)
         
         self.view.addSubview(self.tableView)
     }
@@ -48,7 +49,8 @@ class RSAPPNotificationViewController: APBaseViewController, HideNavigationBarPr
     
     override func pageRequest() {
         super.pageRequest()
-        NetworkRequest(RSAPPNetworkAPI.queryRequirementList(key: REQUIREMENT_INFO_KEY), modelType: [RSAPPNotificationModel].self) { [weak self] (res: [HandyJSON?], res1: SuccessResponse) in            
+        self.tableView.resetNoMoreData()
+        NetworkRequest(RSAPPNetworkAPI.queryRequirementList(key: REQUIREMENT_INFO_KEY), modelType: [RSAPPNotificationModel].self) { [weak self] (res: [HandyJSON?], res1: SuccessResponse) in
             guard let _json_array = res1.arrayJSON?.first as? [Any] else {
                 return
             }
@@ -57,17 +59,19 @@ class RSAPPNotificationViewController: APBaseViewController, HideNavigationBarPr
                 return
             }
             
+            self?.total_notification_models.removeAll()
             self?.total_notification_models.append(contentsOf: _models)
-            self?.tableView.refresh(begin: true)
-        } failureCallback: { _ in
+            self?.refreshNotificationSource()
+        } failureCallback: {[weak self] _ in
+            self?.tableView.refresh(begin: false)
             if let path = Bundle.main.path(forResource: "task", ofType: "json") {
                 do {
                     let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
                     let jsonObject = try JSONSerialization.jsonObject(with: data, options: .allowFragments)
                     if let jsonArray = jsonObject as? [[String:Any]], let _models = [RSAPPNotificationModel].deserialize(from: jsonArray) as? [RSAPPNotificationModel] {
-                        self.total_notification_models.append(contentsOf: _models)
+                        self?.total_notification_models.append(contentsOf: _models)
+                        self?.refreshNotificationSource()
                     }
-                    self.tableView.refresh(begin: true)
                 } catch {
                     
                 }
@@ -78,12 +82,9 @@ class RSAPPNotificationViewController: APBaseViewController, HideNavigationBarPr
 
 private extension RSAPPNotificationViewController {
     func refreshNotificationSource() {
-        self.tableView.resetNoMoreData()
-        self.tableView.refresh(begin: false)
-        self.total_notification_models.shuffle()
         self.notification_models.removeAll()
         self.notification_models.append(contentsOf: self.total_notification_models.prefix(20))
-        self.tableView.reloadData()
+        self.tableView.reload(isEmpty: true)
     }
     
     func loadMoreData() {

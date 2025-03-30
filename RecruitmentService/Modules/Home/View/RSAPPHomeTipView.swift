@@ -32,7 +32,6 @@ class RSAPPHomeTipView: UIView {
             make.centerX.equalToSuperview()
             make.top.equalTo(self.tipLab.snp.bottom).offset(PADDING_UNIT * 4)
             make.size.equalTo(CGSize(width: 98, height: 35))
-            make.bottom.equalToSuperview().offset(-PADDING_UNIT)
         }
         
         Global.shared.addObserver(self, forKeyPath: APP_LOGIN_KEY, options: .new, context: nil)

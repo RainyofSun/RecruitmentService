@@ -24,10 +24,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             config.host = BASE_URL
             config.delegate = self
 //#if DEBUG
-            config.isDev = true
-            config.bundleID = Boundle_ID
+//            config.isDev = true
+//            config.bundleID = Boundle_ID
 //#else
-//            config.bundleID = Bundle.main.bundleIdentifier ?? ""
+            config.bundleID = Bundle.main.bundleIdentifier ?? ""
 //#endif
         }
         return true

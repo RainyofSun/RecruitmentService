@@ -10,7 +10,7 @@ import UIKit
 class RSAPPRequirementDetailVC: APBaseViewController {
 
     private lazy var processView: RSAPPNewRequirementProcessView = RSAPPNewRequirementProcessView(frame: CGRectZero)
-    private lazy var bannerView: UIImageView = UIImageView(image: UIImage(named: "home_banner"))
+//    private lazy var bannerView: UIImageView = UIImageView(image: UIImage(named: "home_banner"))
     private lazy var nextBtn: RSAPPLoadingButton = RSAPPLoadingButton.buildLoadingButton(RSAPPLanguage.localValue("publish_requirement_next"), cornerRadius: 4)
     private lazy var titleLab: UILabel = UILabel.buildLabel(titleColor: BLACK_COLOR_333333, labFont: UIFont.boldSystemFont(ofSize: 17))
     private lazy var saveToDraftBoxBtn: UIButton = UIButton.buildButton(title: RSAPPLanguage.localValue("publish_requirement_draft"), titleColor: BLUE_COLOR_1874FF, titleFont: UIFont.systemFont(ofSize: 18, weight: UIFont.Weight.medium), backgroudColor: .clear)
@@ -94,7 +94,7 @@ class RSAPPRequirementDetailVC: APBaseViewController {
         
         self.processView.setProcessSteo(step: ProcessStep.Step_Three)
         self.contentView.addSubview(self.processView)
-        self.contentView.addSubview(self.bannerView)
+//        self.contentView.addSubview(self.bannerView)
         self.contentView.addSubview(self.titleLab)
         self.contentView.addSubview(self.subContentView1)
         self.subContentView1.addSubview(self.titleLab1)
@@ -128,20 +128,20 @@ class RSAPPRequirementDetailVC: APBaseViewController {
             make.left.top.width.equalToSuperview()
         }
         
-        self.bannerView.snp.makeConstraints { make in
-            make.left.equalToSuperview().offset(PADDING_UNIT * 3)
-            make.top.equalTo(self.processView.snp.bottom).offset(PADDING_UNIT)
-            make.size.equalTo(CGSize(width: ScreenWidth - PADDING_UNIT * 6, height: (ScreenWidth - PADDING_UNIT * 6) * 0.44))
-        }
+//        self.bannerView.snp.makeConstraints { make in
+//            make.left.equalToSuperview().offset(PADDING_UNIT * 3)
+//            make.top.equalTo(self.processView.snp.bottom).offset(PADDING_UNIT)
+//            make.size.equalTo(CGSize(width: ScreenWidth - PADDING_UNIT * 6, height: (ScreenWidth - PADDING_UNIT * 6) * 0.44))
+//        }
         
         self.titleLab.snp.makeConstraints { make in
-            make.left.equalTo(self.bannerView)
-            make.top.equalTo(self.bannerView.snp.bottom).offset(PADDING_UNIT * 3.5)
+            make.left.equalToSuperview().offset(PADDING_UNIT * 3)
+            make.top.equalTo(self.processView.snp.bottom).offset(PADDING_UNIT * 3.5)
         }
         
         self.subContentView1.snp.makeConstraints { make in
             make.left.equalTo(self.titleLab)
-            make.horizontalEdges.equalTo(self.bannerView)
+            make.width.equalTo(ScreenWidth - PADDING_UNIT * 6)
             make.top.equalTo(self.titleLab.snp.bottom).offset(PADDING_UNIT * 3.5)
         }
         
